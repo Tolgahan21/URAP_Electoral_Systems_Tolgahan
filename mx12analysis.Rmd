@@ -8,6 +8,11 @@ output:
 ---
 
 ```{r}
+#Something random
+```
+
+
+```{r}
 library(knitr)
 opts_chunk$set(tidy.opts=list(width.cutoff=80),tidy=TRUE)
 ```
