@@ -1,0 +1,73 @@
+---
+title: "MX-DATA"
+author: "Alan Yu"
+date: "January 29, 2019"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+library(knitr)
+opts_chunk$set(tidy.opts=list(width.cutoff=80),tidy=TRUE)
+```
+
+```{r}
+#load the relevant libraries
+
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(data.table)
+
+data = read.csv("Alan_Data_Entry_1.csv") 
+#this mxdata.csv is the subset from my Alan_Data_Entry_1.xlsx containing P12s, Respondant_ID and Institution type I added to be used for labelling RP or MR.
+
+subdata = as.data.frame(data)
+head(subdata)
+
+
+#subset the columns that we want to use to analyze Question 12
+
+subdata_12 = select(subdata, Respondent_ID, Institution_Type, P12_Distrito_1, P12_Distrito_2, P12_Distrito_3, P12_Distrito_4, P12_Distrito_5, P12_Distrito_6, P12_Distrito_7, P12_Distrito_8, P12_Distrito_9)
+
+
+#then to make the graph we need to change Districts 1-9 to there corresponding competitiveness level
+
+#rearrange data, # I use the melt function because we want the column names to be on the x-axis. We want to exlude anything that is not a district. 
+subdata_12.melt = melt(subdata_12, id=c("Respondent_ID", "Institution_Type")) 
+
+#Rename the districts to level of competitiveness
+subdata_12.melt$variable = as.character(subdata_12.melt$variable)
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_1"] = "-.3"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_2"] = "-.4"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_3"] = "-.5"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_4"] = "-.1"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_5"] = "0"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_6"] = "-.1"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_7"] = "-.5"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_8"] = "-.4"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_9"] = "-.3"
+
+subdata_12.melt = subdata_12.melt[complete.cases(subdata_12.melt), ] #to remove NAs
+subdata_12.melt = transform(subdata_12.melt, variable = as.numeric(variable)) #change variable from character to numerical
+```
+
+```{r}
+ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) #+ coord_cartesian(ylim = c(5000,20000))
+
+```
+
+```{r}
+amdata = read.csv("Statalik_Multiple.csv")
+
+amdata = as.data.frame(amdata)
+keep = c("District_Spending", "Competitiveness", "Institution_Type")
+amdata = (amdata[keep])
+
+
+ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm')
+
+#geom_smooth(method = "lm", fill = NA) 
+```
+
