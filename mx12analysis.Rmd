@@ -65,7 +65,7 @@ subdata_12.melt = transform(subdata_12.melt, variable = as.numeric(variable)) #c
 ```
 
 ```{r}
-ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) #+ coord_cartesian(ylim = c(5000,20000))
+ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(5000,20000))
 
 ```
 
@@ -75,10 +75,11 @@ amdata = read.csv("Statalik_Multiple.csv")
 amdata = as.data.frame(amdata)
 keep = c("District_Spending", "Competitiveness", "Institution_Type")
 amdata = (amdata[keep])
+amdata$Competitiveness = abs(amdata$Competitiveness) #normalize the competitiveness
+amdata$Competitiveness = -1 * (amdata$Competitiveness) #make all values negative
+
+ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + ylim(5000,50000) + coord_cartesian(ylim = c(5000,20000))
 
 
-ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm')
-
-#geom_smooth(method = "lm", fill = NA) 
 ```
 
