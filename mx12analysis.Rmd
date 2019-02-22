@@ -15,13 +15,15 @@ library(reshape2)
 library(dplyr)
 library(data.table)
 
-data = read.csv("Alan_Data_Entry_1.csv") 
+data = read.csv("Mexican_Data_Combined.csv") 
 #this mxdata.csv is the subset from my Alan_Data_Entry_1.xlsx containing P12s, Respondant_ID and Institution type I added to be used for labelling RP or MR.
 
 subdata = as.data.frame(data)
 
-#subset the columns that we want to use to analyze Question 12
+#subdata[subdata$Actual.Total<=100000,]
 
+
+#subset the columns that we want to use to analyze Question 12
 subdata_12 = select(subdata, Respondent_ID, Institution_Type, P12_Distrito_1, P12_Distrito_2, P12_Distrito_3, P12_Distrito_4, P12_Distrito_5, P12_Distrito_6, P12_Distrito_7, P12_Distrito_8, P12_Distrito_9)
 
 #then to make the graph we need to change Districts 1-9 to there corresponding competitiveness level
