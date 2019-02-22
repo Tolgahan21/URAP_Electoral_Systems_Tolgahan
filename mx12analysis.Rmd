@@ -1,22 +1,11 @@
 ---
-title: "MX-DATA"
-author: "Alan Yu"
-date: "January 29, 2019"
+title: "American, Mexican-DATA"
+author: "Tolgahan Dilgin, Alan Yu"
+date: "February 22, 2019"
 output:
   pdf_document: default
   html_document: default
 ---
-
-```{r}
-#Something random
-```
-
-```{r}
-#test 123
-#test 12333
-#Great meeting Let's call it a day!
-```
-
 
 ```{r, warning = FALSE, message = FALSE}
 #load the relevant libraries
@@ -61,7 +50,7 @@ subdata_12.melt = transform(subdata_12.melt, variable = as.numeric(variable)) #c
 ```
 
 ```{r}
-ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(5000,20000)) + ggtitle("Mexican data") + labs(y="Spending", x = "Margin of Vote")
+ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(5000,18000)) + ggtitle("Mexican data") + labs(y="Spending", x = "Margin of Vote")
 
 InstitutionTypeSubSet = split(subdata_12.melt, subdata_12.melt$Institution_Type)
 
