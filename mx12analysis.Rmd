@@ -31,7 +31,9 @@ data = read.csv("Mexican_Data_Combined.csv")
 
 subdata = as.data.frame(data)
 
-#subdata[subdata$Actual.Total<=100000,]
+subdata = subdata[subdata$Actual.Total>=90000 & subdata$Actual.Total<=100000,]
+#0 and -1 are competitive and interaction term between competitive and type
+
 
 
 #subset the columns that we want to use to analyze Question 12
@@ -60,6 +62,26 @@ subdata_12.melt$Institution_Type[subdata_12.melt$Institution_Type == "MR"] = "SM
 subdata_12.melt = subdata_12.melt[complete.cases(subdata_12.melt), ] #to remove NAs
 subdata_12.melt = transform(subdata_12.melt, variable = as.numeric(variable)) #change variable from character to numerical
 
+Competitive = c()
+for (i in subdata_12.melt$variable) {
+  if (i == "0" | i == "-0.1") {
+    Competitive = c(Competitive, 1)
+  } else {
+    Competitive = c(Competitive, 0)
+  }
+}
+Binary_IT = c()
+for (i in subdata_12.melt$Institution_Type) {
+  if (i == "SMD") {
+    Binary_IT = c(Binary_IT, 1)
+  } else {
+    Binary_IT = c(Binary_IT, 0)
+  }
+}
+
+subdata_12.melt = cbind(subdata_12.melt, Binary_IT, Competitive)
+
+
 ```
 
 ```{r}
@@ -70,16 +92,38 @@ InstitutionTypeSubSet = split(subdata_12.melt, subdata_12.melt$Institution_Type)
 #regression coefficients
 lm(value ~ variable, data = InstitutionTypeSubSet$SMD)
 lm(value ~ variable, data = InstitutionTypeSubSet$PR)
+
+summary(lm(value ~ Competitive + Binary_IT + Competitive*Binary_IT, data = subdata_12.melt))
+####
 ```
 
 ```{r american data without adjustment}
 amdata = read.csv("Statalik_Multiple.csv")
-
 amdata = as.data.frame(amdata)
+amdata = amdata[amdata$P12_Total>=90000 & amdata$P12_Total<=100000,]
 keep = c("District_Spending", "Competitiveness", "Institution_Type")
 amdata = (amdata[keep])
 amdata$Competitiveness = abs(amdata$Competitiveness) #normalize the competitiveness
 amdata$Competitiveness = -1 * (amdata$Competitiveness) #make all values negative
+
+Competitive = c()
+for (i in amdata$Competitiveness) {
+  if (i == "0" | i == "-0.1") {
+    Competitive = c(Competitive, 1)
+  } else {
+    Competitive = c(Competitive, 0)
+  }
+}
+Binary_IT = c()
+for (i in amdata$Institution_Type) {
+  if (i == "SMD") {
+    Binary_IT = c(Binary_IT, 1)
+  } else {
+    Binary_IT = c(Binary_IT, 0)
+  }
+}
+
+cbind(amdata, Binary_IT, Competitive)
 
 ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + coord_cartesian(ylim = c(5000,20000)) + ggtitle("US data") + labs(y="Spending", x = "Margin of Vote")
 
@@ -88,6 +132,7 @@ AMInstitutionTypeSubSet = split(amdata, amdata$Institution_Type)
 #regression coefficients without adjustment
 lm(District_Spending ~ Competitiveness, data = AMInstitutionTypeSubSet$SMD)
 lm(District_Spending ~ Competitiveness, data = AMInstitutionTypeSubSet$PR)
+
 ```
 
 
