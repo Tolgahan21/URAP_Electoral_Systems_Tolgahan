@@ -31,6 +31,8 @@ data = read.csv("Mexican_Data_Combined.csv")
 
 subdata = as.data.frame(data)
 
+#subdata[subdata$Actual.Total<=100000,]
+
 
 #subset the columns that we want to use to analyze Question 12
 subdata_12 = select(subdata, Respondent_ID, Institution_Type, P12_Distrito_1, P12_Distrito_2, P12_Distrito_3, P12_Distrito_4, P12_Distrito_5, P12_Distrito_6, P12_Distrito_7, P12_Distrito_8, P12_Distrito_9)
