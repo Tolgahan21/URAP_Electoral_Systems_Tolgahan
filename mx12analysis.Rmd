@@ -112,7 +112,7 @@ for (i in amdata$Institution_Type) {
   }
 }
 
-cbind(amdata, Binary_IT, Competitive)
+#cbind(amdata, Binary_IT, Competitive)
 
 ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + coord_cartesian(ylim = c(5000,20000)) + ggtitle("US data") + labs(y="Spending", x = "Margin of Vote")
 
@@ -125,24 +125,10 @@ lm(District_Spending ~ Competitiveness, data = AMInstitutionTypeSubSet$PR)
 ```
 
 
-```{r american data between 5000 and 50000, warning = FALSE, message = FALSE}
-ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + ylim(5000,50000) + coord_cartesian(ylim = c(5000,20000)) + ggtitle("US data") + labs(y="Spending", x = "Margin of Vote")
-
-AM_SMD = AMInstitutionTypeSubSet$SMD
-AM_PR = AMInstitutionTypeSubSet$PR
-
-#regression coefficients with adjustment
-lm(District_Spending ~ Competitiveness, data = AM_SMD[AM_SMD$District_Spending>=5000 & AM_SMD$District_Spending<=50000,])
-lm(District_Spending ~ Competitiveness, data = AM_PR[AM_PR$District_Spending>=5000 & AM_PR$District_Spending<=50000,])
-```
-
 
 ```{r, warning = FALSE, message = FALSE}
 #mexican data boxplot
 ggplot(subdata_12.melt, aes(x = factor(variable), y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) + geom_boxplot() + ggtitle("Mexican data") + labs(y="Spending", x = "Margin of Vote")
-
-#american data boxplot with adjustment
-ggplot(amdata, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + ylim(5000,50000) + geom_boxplot() + ggtitle("US data") + labs(y="Spending", x = "Margin of Vote")
 
 #american data boxplot without adjustment
 ggplot(amdata, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("US data") + labs(y="Petal length (cm)", x = "Sepal length (cm)") + labs(y="Spending", x = "Margin of Vote")
