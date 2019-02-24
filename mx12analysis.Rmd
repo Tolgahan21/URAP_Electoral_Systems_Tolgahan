@@ -6,18 +6,12 @@ output:
   pdf_document: default
   html_document: default
 ---
-
-<<<<<<< HEAD
-```{r, warning = FALSE, message = FALSE}
-#load the relevant libraries
-=======
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
->>>>>>> ddc0b61ee638ce27846903c48ec0414d09a751a6
-
 library(ggplot2)
 library(reshape2)
 library(dplyr)
 library(data.table)
+library(stargazer)
 require(knitr)
 require(kableExtra)
 
@@ -69,16 +63,18 @@ for (i in subdata_12.melt$Institution_Type) {
 }
 
 subdata_12.melt = cbind(subdata_12.melt, Binary_IT, Competitive)
+ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
 ```
 
-<<<<<<< HEAD
-```{r}
-ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(5000,18000)) + ggtitle("Mexican data") + labs(y="Spending", x = "Margin of Vote")
-=======
-```{r, echo = FALSE}
-ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(5000,20000)) + ggtitle("Mexican data") + labs(y="Spending", x = "Margin of Vote")
->>>>>>> ddc0b61ee638ce27846903c48ec0414d09a751a6
 
+
+```{r, echo = FALSE}
+#ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "District Spending", color = "Electoral System") + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("Mexican Students (ITAM)") 
+
+#ggplot(subdata_12.melt, aes(x = variable, y = value, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
+```
+
+```{r, echo = FALSE}
 InstitutionTypeSubSet = split(subdata_12.melt, subdata_12.melt$Institution_Type)
 
 #regression coefficients (line of best fit)
@@ -86,6 +82,23 @@ lm(value ~ variable, data = InstitutionTypeSubSet$SMD)
 lm(value ~ variable, data = InstitutionTypeSubSet$PR)
 
 mexico_model = lm(value ~ Competitive + Binary_IT + Competitive*Binary_IT, data = subdata_12.melt)
+summary(mexico_model)
+
+```
+
+```{r}
+
+coef(summary(mexico_model))
+```
+```{r}
+library(broom)
+tidy(mexico_model)
+```
+
+
+
+
+```{r, echo = FALSE}
 
 SMD_Competitive = data.frame(Competitive = 1, Binary_IT = 1)
 SMD_Not_Competitive = data.frame(Competitive = 0, Binary_IT = 1)
@@ -103,6 +116,7 @@ Mexico_table %>%
   kable(caption = "Mexican Data") %>%
   kable_styling(full_width = F)
 ```
+
 
 ```{r american data, echo = FALSE}
 amdata = read.csv("Statalik_Multiple.csv")
@@ -131,7 +145,7 @@ for (i in amdata$Institution_Type) {
 }
 amdata = cbind(amdata, Binary_IT, Competitive)
 
-ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + coord_cartesian(ylim = c(5000,20000)) + ggtitle("US data") + labs(y="Spending", x = "Margin of Vote")
+ggplot(amdata, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + coord_cartesian(ylim = c(5000,20000)) + ggtitle("US Students (UIUC)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
 
 AMInstitutionTypeSubSet = split(amdata, amdata$Institution_Type)
 
@@ -158,25 +172,22 @@ American_table %>%
   kable_styling(full_width = F)
 ```
 
-
-
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
-ggplot(subdata_12.melt, aes(x = factor(variable), y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "Spending") + geom_smooth(method='lm', se = FALSE) + geom_boxplot() + ggtitle("Mexican data") + labs(y="Spending", x = "Margin of Vote")
+ggplot(subdata_12.melt, aes(x = factor(variable), y = value, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "District Spending") + geom_smooth(method='lm', se = FALSE) + geom_boxplot() + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
 
-ggplot(amdata, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("US data") + labs(y="Petal length (cm)", x = "Sepal length (cm)") + labs(y="Spending", x = "Margin of Vote")
+ggplot(amdata, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("US Students (UIUC)") + labs(y="Petal length (cm)", x = "Sepal length (cm)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
 
 ```
 
 ```{r echo = FALSE}
-
 names(subdata_12.melt)[3]<-"Competitiveness"
 names(subdata_12.melt)[4]<-"District_Spending"
 
 all_data = rbind(subdata_12.melt[c("District_Spending", "Competitiveness", "Institution_Type", "Binary_IT", "Competitive")], amdata)
 
-ggplot(all_data, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm',se = FALSE) + ggtitle("Pooled Data") + labs(y="Spending", x = "Margin of Vote")
+ggplot(all_data, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm',se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("ITAM & UIUC (Pooled)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
 
-ggplot(all_data, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .1) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("Pooled Data") + labs(y="Spending", x = "Margin of Vote")
+ggplot(all_data, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .1) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("ITAM & UIUC (Pooled)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
 
 Pooled_model = lm(District_Spending ~ Competitive + Binary_IT + Competitive*Binary_IT, data = all_data)
 
@@ -193,7 +204,7 @@ Pooled_table = data.frame(cbind(c(predict(Pooled_model, SMD_Competitive),
 rownames(Pooled_table) = c("SMD", "PR")
 colnames(Pooled_table) = c("Competitive", "Stronghold")
 Pooled_table %>%
-  kable(caption = "Pooled Data") %>%
+  kable(caption = "ITAM and UIUC (Pooled)") %>%
   kable_styling(full_width = F)
 ```
 
