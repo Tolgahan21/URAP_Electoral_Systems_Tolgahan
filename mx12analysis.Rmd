@@ -117,7 +117,11 @@ Mexico_table %>%
   kable(caption = "Mexican Data") %>%
   kable_styling(full_width = F)
 
-stargazer(Mexico_model, header = FALSE, type='latex', title = " Electoral Institutions and Compeitiveness (ITAM)")
+stargazer(Mexico_model, header = FALSE, type='latex', title = " Electoral Institutions and Competitiveness (ITAM)", dep.var.labels=c("District Spending"), covariate.labels=c("Competitive (Binary)","SMD (Binary)","SMD * Competitive"))
+
+#stargazer(linear.1, linear.2, probit.model, title="Regression Results",align=TRUE, dep.var.labels=c("Overall Rating","High Rating"),covariate.labels=c("Handling of Complaints","No Special Privileges","Opportunity to Learn","Performance-Based Raises","Too Critical","Advancement"),omit.stat=c("LL","ser","f"), no.space=TRUE)
+
+
 ```
 
 
@@ -173,10 +177,15 @@ American_table = data.frame(cbind(c(format(round(predict(American_model,SMD_Comp
 rownames(American_table) = c("SMD", "PR")
 colnames(American_table) = c("Competitive", "Stronghold")
 American_table %>%
-  kable(caption = "American Data") %>%
+  kable(caption = "UIUC Students") %>%
   kable_styling(full_width = F)
 
-stargazer(American_model, header = FALSE, type='latex', title = "Electoral Institutions and Compeitiveness (UIUC students)")
+stargazer(American_model, header = FALSE, type='latex', title = "Electoral Institutions and Competitiveness (UIUC students)", dep.var.labels=c("District Spending"), covariate.labels=c("Competitive (Binary)","SMD (Binary)", "SMD * Competitive"))
+
+stargazer(Mexico_model, header = FALSE, type='latex', title = " Electoral Institutions and Competitiveness (ITAM)", dep.var.labels=c("District Spending"), covariate.labels=c("Competitive (Binary)","SMD (Binary)","SMD * Competitive"))
+
+
+
 ```
 
 ```{r, warning = FALSE, message = FALSE, echo = FALSE}
@@ -211,7 +220,15 @@ Pooled_table %>%
   kable(caption = "ITAM and UIUC (Pooled)") %>%
   kable_styling(full_width = F)
 
-stargazer(Pooled_model, header = FALSE, type='latex', title = "Electoral Institutions and Compeitiveness (Pooled Data)")
+stargazer(Pooled_model, header = FALSE, type='latex', title = "Electoral Institutions and Competitiveness (Pooled Data)")
+
+stargazer(Mexico_model, American_model, Pooled_model, title = "Electoral Institutions and Competitiveness", dep.var.labels=c("District Spending"), column.labels=c('ITAM', 'UIUC',  'Pooled'), covariate.labels=c("Competitive (Binary)", "SMD (Binary)", "SMD * Competitive"), omit.stat=c("LL","ser","f"), no.space=TRUE)
+
+
+#stargazer(linear.1, linear.2, probit.model, title="Regression Results",align=TRUE, dep.var.labels=c("Overall Rating","High Rating"),covariate.labels=c("Handling of Complaints","No Special Privileges","Opportunity to Learn","Performance-Based Raises","Too Critical","Advancement"),omit.stat=c("LL","ser","f"), no.space=TRUE)
+
+
+
 ```
 
 
