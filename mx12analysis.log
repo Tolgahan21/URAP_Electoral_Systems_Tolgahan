@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  24 FEB 2019 11:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  24 FEB 2019 21:15
 entering extended mode
 **./mx12analysis.tex
 (mx12analysis.tex
@@ -944,7 +944,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 417.
 Here is how much of TeX's memory you used:
  14269 strings out of 492973
  206358 string characters out of 3135923
- 332617 words of memory out of 3000000
+ 332627 words of memory out of 3000000
  17871 multiletter control sequences out of 15000+200000
  35949 words of font info for 49 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -960,7 +960,7 @@ ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX
 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pf
 b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on mx12analysis.pdf (9 pages, 798563 bytes).
+Output written on mx12analysis.pdf (9 pages, 797706 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  18 named destinations out of 1000 (max. 500000)
