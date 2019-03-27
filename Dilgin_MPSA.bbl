@@ -1,0 +1,28 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Diamond%
+}{%
+Diamond%
+}{%
+{\protect \APACyear {1994}}%
+}]{%
+diamond1994toward}
+\APACinsertmetastar {%
+diamond1994toward}%
+\begin{APACrefauthors}%
+Diamond, L\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1994}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Toward democratic consolidation} {Toward democratic
+  consolidation}.{\BBCQ}
+\newblock
+\BIn{} (\BVOL~5, \BPGS\ 4--17).
+\newblock
+\APACaddressPublisher{}{Johns Hopkins University Press}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
