@@ -29,8 +29,37 @@ This paper is part of dissertation research that examines the impact of electora
 \end{abstract}
 
 \section{Introduction}
-The consequences of electoral systems have been a widely debated topic in political science for several decades. The reason for and consequences of several European countries' shift from Single Member District (SMD) system to Proportional Representation in Europe was a theme that was discussed in the 1930s. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may help us explain certain political phenomena. Perhaps, our most widely accepted piece of knowledge is about the existent trade of between representation and accountability \cite{diamond1994toward}.
+The consequences of electoral systems have been a widely debated topic in political science for several decades. The reason for and consequences of several European countries' shift from Single Member District (SMD) system to Proportional Representation in Europe was a theme that was discussed in the 1930s. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may help us explain certain political phenomena. Perhaps, our most widely accepted piece of knowledge is about the existent trade of between representation and accountability \cite{diamond1999developing}.
 
+\iffalse the tradeoff
+Matt's PS 345 slide. 
+Electoral System Design: Four Normative Tradeoffs (Diamond 1999)
+-Efficiency/Governability vs. Representativeness
+-Representativeness/Inclusiveness vs. Vertical Accountability/Accessibility 
+-Party Coherence vs. Voter Choice
+- Simplicity/Ballot Accessibility vs. Appropriateness of System to Country
+
+--
+Actual, Diamond 1999- Developing Democracy: Toward Consolidation p.100
+"Four normative trade-offs become salient in designing (or reforming) electoral systems for contemporary democracies"
+Efficiency \& governability vs. representativeness
+"The more majoritarian the electoral system, the greater the distortion (disproportionality) between votes and seats, and the less representative the outcome (in giving parliamentary place voice to all interests and views.) However, the efficiency of democracy, "the ability of elections to serve as a means for voters to identify and choose among the competing government options available," is best served with a majoritarian electoral system, which can provide coherent governing alternatives known to the electorate in advance (ideally between two parties) and also a governing majority (footnote 94)."
+
+Representativeness \& inclusiveness (PR) vs. direct vertical accountability \& accessibility (SMD system)
+
+\fi
+
+
+<<echo=FALSE>>=
+# For instance, studies examining economic policy, turnout or legislators have
+#exploited variation in the adoption of PR across cantons (Funk and Gathmann, 2013), close
+#elections in mixed-member electoral systems (Gagliarducci, Nannicini and Naticchioni, 2011)
+#or population thresholds for municipal-level electoral systems (Eggers, 2015). Our strategy
+#exploits both variation in reform intensity and a direct measure of voters’ support for the
+#reform. In that sense, our results are doubly robust to endogeneity concerns. The main
+#methodological approach can also be applied to other electoral reforms and outcomes, like
+#party systems or gender equality.
+@
 
 
 

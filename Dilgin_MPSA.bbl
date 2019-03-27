@@ -5,24 +5,22 @@ Diamond%
 }{%
 Diamond%
 }{%
-{\protect \APACyear {1994}}%
+{\protect \APACyear {1999}}%
 }]{%
-diamond1994toward}
+diamond1999developing}
 \APACinsertmetastar {%
-diamond1994toward}%
+diamond1999developing}%
 \begin{APACrefauthors}%
-Diamond, L\BPBI J.%
+Diamond, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1994}{}{}.
+\APACrefYear{1999}.
 \newblock
-{\BBOQ}\APACrefatitle {Toward democratic consolidation} {Toward democratic
-  consolidation}.{\BBCQ}
+\APACrefbtitle {Developing democracy: Toward consolidation} {Developing
+  democracy: Toward consolidation}.
 \newblock
-\BIn{} (\BVOL~5, \BPGS\ 4--17).
-\newblock
-\APACaddressPublisher{}{Johns Hopkins University Press}.
+\APACaddressPublisher{}{JHU Press}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
