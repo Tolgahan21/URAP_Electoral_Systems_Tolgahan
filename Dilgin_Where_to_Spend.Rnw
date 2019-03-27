@@ -30,7 +30,7 @@
 
 \section{Introduction}
 
-<<fig=TRUE>>=
+<<>>=
 library(ggplot2)
 library(reshape2)
 library(dplyr)

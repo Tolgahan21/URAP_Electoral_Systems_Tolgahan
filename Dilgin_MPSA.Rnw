@@ -29,7 +29,9 @@ This paper is part of dissertation research that examines the impact of electora
 \end{abstract}
 
 \section{Introduction}
-The consequences of electoral systems have been a widely debated topic in political science for several decades. The reason for and consequences of several European countries' shift from Single Member District (SMD) system to Proportional Representation in Europe was a theme that was discussed in the 1930s. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may help us explain certain political phenomena. Perhaps, our most widely accepted piece of knowledge is about the existent trade of between representation and accountability \cite{diamond1999developing}.
+The consequences of electoral systems have been a widely debated topic in political science for several decades. The argument that Proportional Representtion performs better on several aspects of democratic life goes back to John Stuart Mill's \cite{mill1861considerations} The reason for and consequences of several European countries' shift from Single Member District (SMD) system to Proportional Representation in Europe was a theme that was discussed in the 1970s \cite{rokkan_citizens_1970}. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may help us explain certain political phenomena. Perhaps, our most widely accepted piece of knowledge is about the existent trade of between representation and accountability \cite{diamond1999developing}.
+
+
 
 \iffalse the tradeoff
 Matt's PS 345 slide. 
@@ -110,7 +112,6 @@ subdata_12.melt = cbind(subdata_12.melt, Binary_IT, Competitive)
 names(subdata_12.melt)[3]<-"Competitiveness"
 names(subdata_12.melt)[4]<-"District_Spending"
 @
-
 
 <<echo=False, fig=TRUE>>=
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  27 MAR 2019 11:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  27 MAR 2019 13:23
 entering extended mode
 **./Dilgin_MPSA.tex
 (Dilgin_MPSA.tex
@@ -554,34 +554,44 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 26.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
+
+LaTeX Warning: Citation `mill1861considerations' undefined on input line 33.
+
 <Dilgin_MPSA-002.pdf, id=2, 433.62pt x 433.62pt>
 File: Dilgin_MPSA-002.pdf Graphic file (type pdf)
 <use Dilgin_MPSA-002.pdf>
-Package pdftex.def Info: Dilgin_MPSA-002.pdf  used on input line 56.
+Package pdftex.def Info: Dilgin_MPSA-002.pdf  used on input line 57.
 (pdftex.def)             Requested size: 375.80544pt x 375.8238pt.
- (Dilgin_MPSA.bbl
-[1
+(Dilgin_MPSA.bbl [1
 
-{C:/Users/Tolgahan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-[2 <./Dilgin_MPSA-002.pdf>] (Dilgin_MPSA.aux) ) 
+{C:/Users/Tolgahan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Try loading font information for T1+aett on input line 56.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)) [2 <./Dilgin_MPSA-002.pdf>] (Dilgin_MPSA.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5961 strings out of 492973
- 86558 string characters out of 3135923
- 147911 words of memory out of 3000000
- 9670 multiletter control sequences out of 15000+200000
- 30544 words of font info for 71 fonts, out of 3000000 for 9000
+ 5991 strings out of 492973
+ 87067 string characters out of 3135923
+ 148046 words of memory out of 3000000
+ 9694 multiletter control sequences out of 15000+200000
+ 31391 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,40p,997b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dilgin_MPSA.pdf (2 pages, 153509 bytes).
+ 42i,6n,40p,997b,208s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmtt10.pfb>
+Output written on Dilgin_MPSA.pdf (2 pages, 170197 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
+ 48 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  10 words of extra memory for PDF output out of 10000 (max. 10000000)
 

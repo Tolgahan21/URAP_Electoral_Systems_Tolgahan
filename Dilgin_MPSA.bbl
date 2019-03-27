@@ -23,4 +23,38 @@ Diamond, L.%
 \APACaddressPublisher{}{JHU Press}.
 \PrintBackRefs{\CurrentBib}
 
+\bibitem [\protect \citeauthoryear {%
+Rokkan%
+, Campbell%
+, Torsvik%
+\BCBL {}\ \BBA {} Valen%
+}{%
+Rokkan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1970}}%
+}]{%
+rokkan_citizens_1970}
+\APACinsertmetastar {%
+rokkan_citizens_1970}%
+\begin{APACrefauthors}%
+Rokkan, S.%
+, Campbell, A.%
+, Torsvik, P.%
+\BCBL {}\ \BBA {} Valen, H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1970}.
+\newblock
+\APACrefbtitle {Citizens, elections, parties: {Approaches} to the comparative
+  study of the processes of development} {Citizens, elections, parties:
+  {Approaches} to the comparative study of the processes of development}\
+  (\BVOL~1).
+\newblock
+\APACaddressPublisher{}{McKay New York}.
+\newblock
+\begin{APACrefURL} [{2014-02-02}]\url{http://www.getcited.org/pub/101938585}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
 \end{thebibliography}
