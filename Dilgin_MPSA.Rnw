@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{apacite}
+
+\title{Demo Bibtex}
+\author{Tolgahan Dilgin}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\maketitle{Hello2}
+
+Some people claim \cite{diamond1994toward}.
+\bibliographystyle{apacite}
+\bibliography{MPSA_References}
+\end{document}
