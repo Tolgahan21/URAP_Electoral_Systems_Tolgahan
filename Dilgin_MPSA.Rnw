@@ -11,4 +11,5 @@
 Some people claim \cite{diamond1994toward}.
 \bibliographystyle{apacite}
 \bibliography{MPSA_References}
+
 \end{document}
