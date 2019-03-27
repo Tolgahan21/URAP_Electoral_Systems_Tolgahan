@@ -1,5 +1,21 @@
 \documentclass{article}
 \usepackage{apacite}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{bbm}
+\usepackage[margin=1in]{geometry} % set margins
+\usepackage{subcaption} % allows for subfigures
+\usepackage{graphicx} % allow inclusion of figures/photos/pdfs
+\usepackage{setspace} % allows changes between 
+% \doublespacing \singlespacing \onehalfspacing
+\onehalfspacing
+\graphicspath{{./figure/}}
+\usepackage[justification=centering]{caption}
+\usepackage{cancel}
+\usepackage{mathrsfs}
 
 \begin{document}
 \SweaveOpts{concordance=TRUE}
@@ -34,7 +50,7 @@ Representativeness \& inclusiveness (PR) vs. direct vertical accountability \& a
 \fi
 
 
-<<>>=
+<<echo=FALSE>>=
 library(ggplot2)
 library(reshape2)
 library(dplyr)
@@ -95,9 +111,10 @@ names(subdata_12.melt)[3]<-"Competitiveness"
 names(subdata_12.melt)[4]<-"District_Spending"
 @
 
-<<>>=
 
-ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0))
+<<echo=False, fig=TRUE>>=
+
+ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm', se = FALSE) + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0)) + coord_cartesian(ylim = c(4000,20000))
 
 @
 

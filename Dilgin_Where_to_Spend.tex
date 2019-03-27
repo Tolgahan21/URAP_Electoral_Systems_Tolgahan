@@ -88,7 +88,61 @@
 > 
 \end{Sinput}
 \end{Schunk}
+\includegraphics{Dilgin_Where_to_Spend-001}
 
 
+\begin{Schunk}
+\begin{Soutput}
+Call:
+lm(formula = District_Spending ~ Competitiveness, data = InstitutionTypeSubSet$SMD)
 
-\end{document}
+Coefficients:
+    (Intercept)  Competitiveness  
+          19721            29941  
+\end{Soutput}
+\begin{Soutput}
+Call:
+lm(formula = District_Spending ~ Competitiveness, data = InstitutionTypeSubSet$PR)
+
+Coefficients:
+    (Intercept)  Competitiveness  
+          17365            21932  
+\end{Soutput}
+\begin{Soutput}
+Call:
+lm(formula = District_Spending ~ Competitive + Binary_IT + Competitive * 
+    Binary_IT, data = subdata_12.melt)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-18617  -5299  -1458   3353  41780 
+
+Coefficients:
+                      Estimate Std. Error t value Pr(>|t|)    
+(Intercept)             8219.6      366.3  22.437  < 2e-16 ***
+Competitive             8427.3      634.5  13.281  < 2e-16 ***
+Binary_IT               -920.9      510.9  -1.802  0.07173 .  
+Competitive:Binary_IT   2890.8      885.0   3.267  0.00112 ** 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Residual standard error: 7454 on 1274 degrees of freedom
+Multiple R-squared:  0.2871,	Adjusted R-squared:  0.2854 
+F-statistic:   171 on 3 and 1274 DF,  p-value: < 2.2e-16
+\end{Soutput}
+\end{Schunk}
+
+\begin{Schunk}
+\begin{Soutput}
+                       Estimate Std. Error   t value     Pr(>|t|)
+(Intercept)           8219.5604   366.3415 22.436881 3.162220e-94
+Competitive           8427.2850   634.5221 13.281311 8.527904e-38
+Binary_IT             -920.8937   510.9388 -1.802356 7.172564e-02
+Competitive:Binary_IT 2890.8474   884.9719  3.266598 1.117467e-03
+\end{Soutput}
+\end{Schunk}
+
+r, echo=FALSE}
+library(broom)
+tidy(Mexico_model)
+```

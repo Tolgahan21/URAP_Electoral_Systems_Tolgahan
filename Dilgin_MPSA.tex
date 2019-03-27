@@ -1,5 +1,21 @@
 \documentclass{article}
 \usepackage{apacite}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{bbm}
+\usepackage[margin=1in]{geometry} % set margins
+\usepackage{subcaption} % allows for subfigures
+\usepackage{graphicx} % allow inclusion of figures/photos/pdfs
+\usepackage{setspace} % allows changes between 
+% \doublespacing \singlespacing \onehalfspacing
+\onehalfspacing
+\graphicspath{{./figure/}}
+\usepackage[justification=centering]{caption}
+\usepackage{cancel}
+\usepackage{mathrsfs}
 
 \usepackage{Sweave}
 \begin{document}
@@ -35,68 +51,9 @@ Representativeness \& inclusiveness (PR) vs. direct vertical accountability \& a
 \fi
 
 
-\begin{Schunk}
-\begin{Sinput}
-> library(ggplot2)
-> library(reshape2)
-> library(dplyr)
-> library(data.table)
-> library(stargazer)
-> require(knitr)
-> require(kableExtra)
-> data = read.csv("Mexican_Data_Combined.csv") 
-> subdata = as.data.frame(data)
-> subdata = subdata[subdata$Actual.Total>=90000 & subdata$Actual.Total<=100000,]
-> #subset the columns that we want to use to analyze Question 12
-> subdata_12 = select(subdata, Respondent_ID, Institution_Type, P12_Distrito_1, P12_Distrito_2, P12_Distrito_3, P12_Distrito_4, P12_Distrito_5, P12_Distrito_6, P12_Distrito_7, P12_Distrito_8, P12_Distrito_9)
-> #then to make the graph we need to change Districts 1-9 to there corresponding competitiveness level
-> 
-> #rearrange data, # I use the melt function because we want the column names to be on the x-axis. We want to exlude anything that is not a district. 
-> subdata_12.melt = melt(subdata_12, id=c("Respondent_ID", "Institution_Type")) 
-> #Rename the districts to level of competitiveness and Institution Type to English abbreviation.
-> subdata_12.melt$variable = as.character(subdata_12.melt$variable)
-> subdata_12.melt$Institution_Type = as.character(subdata_12.melt$Institution_Type)
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_1"] = "-.3"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_2"] = "-.4"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_3"] = "-.5"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_4"] = "-.1"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_5"] = "0"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_6"] = "-.1"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_7"] = "-.5"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_8"] = "-.4"
-> subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_9"] = "-.3"
-> subdata_12.melt$Institution_Type[subdata_12.melt$Institution_Type == "RP"] = "PR"
-> subdata_12.melt$Institution_Type[subdata_12.melt$Institution_Type == "MR"] = "SMD"
-> subdata_12.melt = subdata_12.melt[complete.cases(subdata_12.melt), ] #to remove NAs
-> subdata_12.melt = transform(subdata_12.melt, variable = as.numeric(variable)) #change variable from character to numerical
-> Competitive = c()
-> for (i in subdata_12.melt$variable) {
-+   if (i == "0" | i == "-0.1") {
-+     Competitive = c(Competitive, 1)
-+   } else {
-+     Competitive = c(Competitive, 0)
-+   }
-+ }
-> Binary_IT = c()
-> for (i in subdata_12.melt$Institution_Type) {
-+   if (i == "SMD") {
-+     Binary_IT = c(Binary_IT, 1)
-+   } else {
-+     Binary_IT = c(Binary_IT, 0)
-+   }
-+ }
-> subdata_12.melt = cbind(subdata_12.melt, Binary_IT, Competitive)
-> names(subdata_12.melt)[3]<-"Competitiveness"
-> names(subdata_12.melt)[4]<-"District_Spending"
-\end{Sinput}
-\end{Schunk}
 
-\begin{Schunk}
-\begin{Sinput}
-> ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0))
-> 
-\end{Sinput}
-\end{Schunk}
+
+\includegraphics{Dilgin_MPSA-002}
 
 
 
