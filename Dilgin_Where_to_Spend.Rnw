@@ -94,7 +94,6 @@ ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = 
 
 @
 
-
 <<echo = FALSE>>=
 
 #ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "District Spending", color = "Electoral System") + geom_smooth(method='lm', se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("Mexican Students (ITAM)") 
@@ -252,6 +251,7 @@ stargazer(Mexico_model, American_model, Pooled_model, title = "Electoral Institu
 #stargazer(linear.1, linear.2, probit.model, title="Regression Results",align=TRUE, dep.var.labels=c("Overall Rating","High Rating"),covariate.labels=c("Handling of Complaints","No Special Privileges","Opportunity to Learn","Performance-Based Raises","Too Critical","Advancement"),omit.stat=c("LL","ser","f"), no.space=TRUE)
 
 @
+
 
 
 
