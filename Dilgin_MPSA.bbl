@@ -1,6 +1,38 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Carey%
+\ \BBA {} Hix%
+}{%
+Carey%
+\ \BBA {} Hix%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+carey_electoral_2011}
+\APACinsertmetastar {%
+carey_electoral_2011}%
+\begin{APACrefauthors}%
+Carey, J\BPBI M.%
+\BCBT {}\ \BBA {} Hix, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The {Electoral} {Sweet} {Spot}: {Low}-{Magnitude}
+  {Proportional} {Electoral} {Systems}} {The {Electoral} {Sweet} {Spot}:
+  {Low}-{Magnitude} {Proportional} {Electoral} {Systems}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Journal of Political
+  Science}{55}{2}{383--397}.
+\newblock
+\begin{APACrefURL}
+  [{2014-01-31}]\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1540-5907.2010.00495.x/full}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Diamond%
 }{%
 Diamond%
@@ -21,6 +53,59 @@ Diamond, L.%
   democracy: Toward consolidation}.
 \newblock
 \APACaddressPublisher{}{JHU Press}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mill%
+}{%
+Mill%
+}{%
+{\protect \APACyear {1861}}%
+}]{%
+mill1861considerations}
+\APACinsertmetastar {%
+mill1861considerations}%
+\begin{APACrefauthors}%
+Mill, J\BPBI S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1861}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Considerations on Representative Democracy}
+  {Considerations on representative democracy}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Parker, Son and Bourne, London}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Persson%
+\ \BBA {} Tabellini%
+}{%
+Persson%
+\ \BBA {} Tabellini%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+persson_economic_2003}
+\APACinsertmetastar {%
+persson_economic_2003}%
+\begin{APACrefauthors}%
+Persson, T.%
+\BCBT {}\ \BBA {} Tabellini, G\BPBI E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {The economic effects of constitutions} {The economic effects of
+  constitutions}.
+\newblock
+\APACaddressPublisher{}{MIT press}.
+\newblock
+\begin{APACrefURL}
+  [{2014-01-31}]\url{http://books.google.com/books?hl=en&lr=&id=NjCw9eSvNPMC&oi=fnd&pg=PR9&dq=The+Economic+Effects+of+Constitutions&ots=yyJOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

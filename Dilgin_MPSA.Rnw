@@ -29,7 +29,13 @@ This paper is part of dissertation research that examines the impact of electora
 \end{abstract}
 
 \section{Introduction}
-The consequences of electoral systems have been a widely debated topic in political science for several decades. The argument that Proportional Representtion performs better on several aspects of democratic life goes back to John Stuart Mill's \cite{mill1861considerations} The reason for and consequences of several European countries' shift from Single Member District (SMD) system to Proportional Representation in Europe was a theme that was discussed in the 1970s \cite{rokkan_citizens_1970}. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may help us explain certain political phenomena. Perhaps, our most widely accepted piece of knowledge is about the existent trade of between representation and accountability \cite{diamond1999developing}.
+The consequences of electoral systems have been a widely debated topic in political science for several decades. The argument that Proportional Representtion performs better on several aspects of democratic life goes back to John Stuart Mill's Considerations on  Representative Government \cite{mill1861considerations}. Likewise, the reason for and consequences of several European countries' shift from Single Member District (SMD) system to Proportional Representation in Europe was a theme that was discussed in the 1970s \cite{rokkan_citizens_1970}. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may help us explain certain political phenomena.\\
+\iffalse
+I made a reference to mill from Becher article.It says Chapter 7. Double-make sure that this is the case. I ordered the book online.
+\fi
+\\
+Perhaps, our most widely accepted piece of knowledge is that the choice or comparison of the two widely used electoral systems -majoritarian vs. proportional- brings a trade-off between accountability and representation \cite{diamond1999developing}\cite{carey_electoral_2011}\cite{persson_economic_2003}.The advantage of Proportional Representation is clear: when each district in a country elects multiple representatives, this will enable different political opinions to be heard both at the local and national assemblies. Although these opinions may not constitute majority even at the very district they were chosen, let alone at the national level, the PR system gives a voice to minority opinions without allowing them to be crushed by the choices of majorities. The downside of this system is that when constituents are not happy with how things are at their constituents, it is hard to pinpoint \textit{the} responsible person, as all representatives will be pointing each other. 
+
 
 
 
