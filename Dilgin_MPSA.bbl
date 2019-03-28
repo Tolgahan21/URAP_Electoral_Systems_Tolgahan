@@ -151,6 +151,30 @@ Jenkins~Commission, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Kristinsson%
+}{%
+Kristinsson%
+}{%
+{\protect \APACyear {2001}}%
+}]{%
+kristinsson2001clientelism}
+\APACinsertmetastar {%
+kristinsson2001clientelism}%
+\begin{APACrefauthors}%
+Kristinsson, G\BPBI H.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2001}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Clientelism in a cold climate: The case of Iceland}
+  {Clientelism in a cold climate: The case of iceland}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Clientelism Interests, and Democratic
+  Representation}{}{}{172--192}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Mill%
 }{%
 Mill%

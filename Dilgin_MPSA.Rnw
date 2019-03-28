@@ -99,35 +99,8 @@ In the survey, I asked the respondents to imagine that they are a political cons
 \subsection{Research Findings}
 This section will discuss the empirical findings from the survey experiment I conducted in the US and Mexico in light of my theoretical expectations. Proposition 1 had argued that the relationship between these four types of districts should be $a>b>c>d$. As discussed previously, this means that competitive districts tend to receive more vote buying than non-competitive or stronghold districts ($a>d$ and $b>c$). The proposition also puts forward a second set of hypotheses that the gap between districts will be higher under SMD than they are under PR systems ($a>b$ and $c>d$). Now, let us see whether the survey experiment data supports the this theory.\\
 \\
-In order to test the hypothesis, I conducted a simple regression model\footnote{Ordinary Least Squares (OLS) with robust standard errors} from the data combined the students from University of Illinois in the US, and Instituto Tecnol\'{o}gico Aut\'{o}nomo de M\'{e}xico (ITAM) in Mexico. The following visual shows a randomly selected nine respondents' responses to the question:\\
+In order to test the hypothesis, I conducted a simple regression model\footnote{Ordinary Least Squares (OLS) with robust standard errors} from the data combined the students from University of Illinois in the US, and Instituto Tecnol\'{o}gico Aut\'{o}nomo de M\'{e}xico (ITAM) in Mexico.\\
 \\
-\includegraphics[width=90mm]{Graph}
-
-
-
-
-Electoral institutions undoubtedly influence how interparty competition will take place. The paper argues that this interplay between the electoral rules and political competition brings us a trade-off between district homegeneity vs. heterogeneity in several political activities parties choose the engage with in order to win the elections. Hence, parties may distribute their resources more equally under proportional systems than the would under majoritarian systems.\\
-\\
-
-
-\iffalse the trade-off
-Matt's PS 345 slide. 
-Electoral System Design: Four Normative Trade-offs (Diamond 1999)
--Efficiency/Governability vs. Representativeness
--Representativeness/Inclusiveness vs. Vertical Accountability/Accessibility 
--Party Coherence vs. Voter Choice
-- Simplicity/Ballot Accessibility vs. Appropriateness of System to Country
-
---
-Actual, Diamond 1999- Developing Democracy: Toward Consolidation p.100
-"Four normative trade-offs become salient in designing (or reforming) electoral systems for contemporary democracies"
-Efficiency \&  vs. representativeness
-"The more majoritarian the electoral system, the greater the distortion (disproportionality) between votes and seats, and the less representative the outcome (in giving parliamentary place voice to all interests and views.) However, the efficiency of democracy, "the ability of elections to serve as a means for voters to identify and choose among the competing government options available," is best served with a majoritarian electoral system, which can provide coherent governing alternatives known to the electorate in advance (ideally between two parties) and also a governing majority (footnote 94)."
-
-Representativeness \& inclusiveness (PR) vs. direct vertical accountability \& accessibility (SMD system)
-
-\fi
-
 
 <<echo=FALSE>>=
 library(ggplot2)
@@ -208,8 +181,33 @@ ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = 
 @
 
 
-
 \bibliographystyle{apacite}
 \bibliography{MPSA_References}
+
+\section{Appendix} 
+The following visual shows a randomly selected nine respondents' responses to the question, where the horizontal axis shows the vote margin as a competitiveness measure and vertical axis is the spending in that district:\\
+\\
+\includegraphics[width=180mm]{Respondents_1}
+\\
+
+\iffalse the trade-off
+Matt's PS 345 slide. 
+Electoral System Design: Four Normative Trade-offs (Diamond 1999)
+-Efficiency/Governability vs. Representativeness
+-Representativeness/Inclusiveness vs. Vertical Accountability/Accessibility 
+-Party Coherence vs. Voter Choice
+- Simplicity/Ballot Accessibility vs. Appropriateness of System to Country
+
+--
+Actual, Diamond 1999- Developing Democracy: Toward Consolidation p.100
+"Four normative trade-offs become salient in designing (or reforming) electoral systems for contemporary democracies"
+Efficiency \&  vs. representativeness
+"The more majoritarian the electoral system, the greater the distortion (disproportionality) between votes and seats, and the less representative the outcome (in giving parliamentary place voice to all interests and views.) However, the efficiency of democracy, "the ability of elections to serve as a means for voters to identify and choose among the competing government options available," is best served with a majoritarian electoral system, which can provide coherent governing alternatives known to the electorate in advance (ideally between two parties) and also a governing majority (footnote 94)."
+
+Representativeness \& inclusiveness (PR) vs. direct vertical accountability \& accessibility (SMD system)
+
+\fi
+
+
 
 \end{document}
