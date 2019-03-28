@@ -1,0 +1,73 @@
+---
+title: "US032519"
+author: "Alan Yu"
+date: "March 27, 2019"
+output: pdf_document
+---
+
+```{r}
+library(tidyverse)
+library(dplyr)
+library(data.table)
+library(ggplot2)
+
+filename = "Tolgahan_Survey_March 25, 2019_11.55.csv"
+headers = read_csv(filename, col_names = FALSE, n_max = 1)
+data = read_csv(filename, skip = 3, col_names = FALSE)
+colnames(data)= headers
+subdata = as.data.frame(data)
+subdata = subdata[subdata$Total>=90000 & subdata$Total<=100000,]
+
+subdata_12 = select(subdata, Q41_635_TEXT, Q41_636_TEXT, Q41_637_TEXT, Q41_638_TEXT, Q41_639_TEXT, Q41_640_TEXT, Q41_641_TEXT, Q41_642_TEXT, Q41_643_TEXT, Condition)
+```
+
+```{r}
+subdata_12.melt = melt(subdata_12, id="Condition") 
+subdata_12.melt$variable = as.character(subdata_12.melt$variable)
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_635_TEXT"] = "-.3"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_636_TEXT"] = "-.4"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_637_TEXT"] = "-.5"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_638_TEXT"] = "-.1"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_639_TEXT"] = "0"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_640_TEXT"] = "-.1"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_641_TEXT"] = "-.5"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_642_TEXT"] = "-.4"
+subdata_12.melt$variable[subdata_12.melt$variable == "Q41_643_TEXT"] = "-.3"
+subdata_12.melt$Condition[subdata_12.melt$Condition == 1] = "SMD and Opposition"
+subdata_12.melt$Condition[subdata_12.melt$Condition == 2] = "PR and Opposition"
+subdata_12.melt$Condition[subdata_12.melt$Condition == 3] = "SMD and Government"
+subdata_12.melt$Condition[subdata_12.melt$Condition == 4] = "PR and Government"
+subdata_12.melt$Condition[subdata_12.melt$Condition == 5] = "SMD and Symmetric Parties"
+subdata_12.melt$Condition[subdata_12.melt$Condition == 6] = "PR and Symmetric Parties"
+
+subdata_12.melt = subdata_12.melt[complete.cases(subdata_12.melt), ]
+subdata_12.melt = transform(subdata_12.melt, variable = as.numeric(variable))
+subdata_12.melt = transform(subdata_12.melt, value = as.numeric(value))
+
+Competitive = c()
+for (i in subdata_12.melt$variable) {
+  if (i == "0" | i == "-0.1") {
+    Competitive = c(Competitive, 1)
+  } else {
+    Competitive = c(Competitive, 0)
+  }
+}
+
+Binary_IT = c()
+for (i in subdata_12.melt$Condition) {
+  if (i == "SMD and Opposition" | i == "SMD and Government" | i == "SMD and Symmetric Parties") {
+    Binary_IT = c(Binary_IT, 1)
+  } else {
+    Binary_IT = c(Binary_IT, 0)
+  }
+}
+
+subdata_12.melt = cbind(subdata_12.melt, Binary_IT, Competitive)
+names(subdata_12.melt)[2]<-"Competitiveness"
+names(subdata_12.melt)[3]<-"District_Spending"
+
+
+ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = Condition)) + geom_jitter() + geom_smooth(method="lm", se=F, size=1, aes(colour = Condition, group = Condition)) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("US students") + labs(y="District Spending", x = "Margin of Vote") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0))
+
+```
+
