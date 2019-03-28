@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  27 MAR 2019 14:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  27 MAR 2019 22:38
 entering extended mode
 **./Dilgin_MPSA.tex
 (Dilgin_MPSA.tex
@@ -554,194 +554,179 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 26.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 33--39
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
-<Dilgin_MPSA-002.pdf, id=2, 433.62pt x 433.62pt>
-File: Dilgin_MPSA-002.pdf Graphic file (type pdf)
-<use Dilgin_MPSA-002.pdf>
-Package pdftex.def Info: Dilgin_MPSA-002.pdf  used on input line 63.
-(pdftex.def)             Requested size: 375.80544pt x 375.8238pt.
-(Dilgin_MPSA.bbl [1
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
+
+ []
+
+[1
 
 {C:/Users/Tolgahan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+aett on input line 31.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
-File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
-)
-! Misplaced alignment tab character &.
-<argument> http://books.google.com/books?hl=en&
-                                               lr=&id=NjCw9eSvNPMC&oi=fnd&pg...
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> ...://books.google.com/books?hl=en&lr=&
-                                                  id=NjCw9eSvNPMC&oi=fnd&pg=...
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> ...com/books?hl=en&lr=&id=NjCw9eSvNPMC&
-                                                  oi=fnd&pg=PR9&dq=The+Econo...
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> ...ks?hl=en&lr=&id=NjCw9eSvNPMC&oi=fnd&
-                                                  pg=PR9&dq=The+Economic+Eff...
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> ...n&lr=&id=NjCw9eSvNPMC&oi=fnd&pg=PR9&
-                                                  dq=The+Economic+Effects+of...
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> ...e+Economic+Effects+of+Constitutions&
-                                                  ots=yyJOf4Dct5&sig=6_dx9HN...
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Misplaced alignment tab character &.
-<argument> ...cts+of+Constitutions&ots=yyJOf4Dct5&
-                                                  sig=6_dx9HNEPjIhOCxSyAfU2a...
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<recently read> \egroup 
-                        
-l.107 ...JOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.108   \end{APACrefURL}
-                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.108   \end{APACrefURL}
-                        
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--110
-[]\T1/aer/m/n/10 Persson, T., & Tabellini, G. E.  (2003).  \T1/aer/m/it/10 The 
-eco-nomic ef-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--110
-\T1/aer/m/it/10 fects of con-sti-tu-tions\T1/aer/m/n/10 .  MIT press.  Re-triev
-ed 2014-01-31, from
- []
-
-
-Overfull \hbox (373.62198pt too wide) in paragraph at lines 94--110
-\T1/aett/m/n/10 http://books.google.com/books?hl=enlr=id=NjCw9eSvNPMCoi=fndpg=P
-R9dq=The+Economic+Effects+of+Constitutionsots=yyJOf4Dct5sig=6$[]\OML/cmm/m/it/1
-0 x\OT1/cmr/m/n/10 9\OML/cmm/m/it/10 HNEPjIhOCxSyAfU\OT1/cmr/m/n/10 2\OML/cmm/m
-/it/10 aNnW\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 A$
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--110
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
 
  []
 
-) [2 <./Dilgin_MPSA-002.pdf>] (Dilgin_MPSA.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
+
+ []
+
+[3]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \\
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.78 I
+      n line with Proposition 1, the paper's theory can be summarized as $a>...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--99
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+<Dilgin_MPSA-002.pdf, id=32, 433.62pt x 433.62pt>
+File: Dilgin_MPSA-002.pdf Graphic file (type pdf)
+<use Dilgin_MPSA-002.pdf>
+Package pdftex.def Info: Dilgin_MPSA-002.pdf  used on input line 135.
+(pdftex.def)             Requested size: 375.80544pt x 375.8238pt.
+(Dilgin_MPSA.bbl [7] [8 <./Dilgin_MPSA-002.pdf>]) [9] (Dilgin_MPSA.aux) ) 
 Here is how much of TeX's memory you used:
- 6012 strings out of 492973
- 87383 string characters out of 3135923
- 150309 words of memory out of 3000000
- 9712 multiletter control sequences out of 15000+200000
- 33585 words of font info for 85 fonts, out of 3000000 for 9000
+ 6023 strings out of 492973
+ 87529 string characters out of 3135923
+ 160789 words of memory out of 3000000
+ 9715 multiletter control sequences out of 15000+200000
+ 42342 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,6n,40p,1034b,207s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr1
-0.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Dilgin_MPSA.pdf (2 pages, 200187 bytes).
+ 42i,8n,40p,2166b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dilgin_MPSA.pdf (9 pages, 245408 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
+ 83 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  10 words of extra memory for PDF output out of 10000 (max. 10000000)
 

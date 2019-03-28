@@ -1,6 +1,55 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Boix%
+}{%
+Boix%
+}{%
+{\protect \APACyear {1999}}%
+}]{%
+boix_setting_1999}
+\APACinsertmetastar {%
+boix_setting_1999}%
+\begin{APACrefauthors}%
+Boix, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1999}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Setting the rules of the game: the choice of electoral
+  systems in advanced democracies} {Setting the rules of the game: the choice
+  of electoral systems in advanced democracies}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Political Science Review}{}{}{609--624}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Braunias%
+}{%
+Braunias%
+}{%
+{\protect \APACyear {1932}}%
+}]{%
+braunias1932parlamentarische}
+\APACinsertmetastar {%
+braunias1932parlamentarische}%
+\begin{APACrefauthors}%
+Braunias, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1932}.
+\newblock
+\APACrefbtitle {Das parlamentarische Wahlrecht: ein Handbuch {\"u}ber die
+  Bildung der gesetzgebenden K{\"o}rperschaften in Europa} {Das
+  parlamentarische wahlrecht: ein handbuch {\"u}ber die bildung der
+  gesetzgebenden k{\"o}rperschaften in europa}\ (\BVOL~18).
+\newblock
+\APACaddressPublisher{}{W. de Gruyter}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Carey%
 \ \BBA {} Hix%
 }{%
@@ -26,10 +75,33 @@ Carey, J\BPBI M.%
 \newblock
 \APACjournalVolNumPages{American Journal of Political
   Science}{55}{2}{383--397}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cusack%
+, Iversen%
+\BCBL {}\ \BBA {} Soskice%
+}{%
+Cusack%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2007}}%
+}]{%
+cusack_economic_2007}
+\APACinsertmetastar {%
+cusack_economic_2007}%
+\begin{APACrefauthors}%
+Cusack, T\BPBI R.%
+, Iversen, T.%
+\BCBL {}\ \BBA {} Soskice, D.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\begin{APACrefURL}
-  [{2014-01-31}]\url{http://onlinelibrary.wiley.com/doi/10.1111/j.1540-5907.2010.00495.x/full}
-  \end{APACrefURL}
+\APACrefYearMonthDay{2007}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Economic interests and the origins of electoral systems}
+  {Economic interests and the origins of electoral systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Political Science Review}{101}{3}{373}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -56,6 +128,29 @@ Diamond, L.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Jenkins~Commission%
+}{%
+Jenkins~Commission%
+}{%
+{\protect \APACyear {1998}}%
+}]{%
+britain1998report}
+\APACinsertmetastar {%
+britain1998report}%
+\begin{APACrefauthors}%
+Jenkins~Commission, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{1998}.
+\newblock
+\APACrefbtitle {The Report of the Independent Commission on the Voting System}
+  {The report of the independent commission on the voting system}.
+\newblock
+\APACaddressPublisher{}{Stationery Office}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Mill%
 }{%
 Mill%
@@ -76,6 +171,31 @@ Mill, J\BPBI S.%
   {Considerations on representative democracy}.{\BBCQ}
 \newblock
 \APACjournalVolNumPages{Parker, Son and Bourne, London}{}{}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Norris%
+}{%
+Norris%
+}{%
+{\protect \APACyear {1997}}%
+}]{%
+norris1997choosing}
+\APACinsertmetastar {%
+norris1997choosing}%
+\begin{APACrefauthors}%
+Norris, P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1997}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Choosing electoral systems: proportional, majoritarian
+  and mixed systems} {Choosing electoral systems: proportional, majoritarian
+  and mixed systems}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International political science
+  review}{18}{3}{297--312}.
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -102,10 +222,6 @@ Persson, T.%
   constitutions}.
 \newblock
 \APACaddressPublisher{}{MIT press}.
-\newblock
-\begin{APACrefURL}
-  [{2014-01-31}]\url{http://books.google.com/books?hl=en&lr=&id=NjCw9eSvNPMC&oi=fnd&pg=PR9&dq=The+Economic+Effects+of+Constitutions&ots=yyJOf4Dct5&sig=6_dx9HNEPjIhOCxSyAfU2aNnW1A}
-  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -137,9 +253,30 @@ Rokkan, S.%
   (\BVOL~1).
 \newblock
 \APACaddressPublisher{}{McKay New York}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Stokes%
+}{%
+Stokes%
+}{%
+{\protect \APACyear {2005}}%
+}]{%
+stokes_perverse_2005}
+\APACinsertmetastar {%
+stokes_perverse_2005}%
+\begin{APACrefauthors}%
+Stokes, S\BPBI C.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\begin{APACrefURL} [{2014-02-02}]\url{http://www.getcited.org/pub/101938585}
-  \end{APACrefURL}
+\APACrefYearMonthDay{2005}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Perverse accountability: {A} formal model of machine
+  politics with evidence from {Argentina}} {Perverse accountability: {A} formal
+  model of machine politics with evidence from {Argentina}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{American Political Science Review}{99}{3}{315}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
