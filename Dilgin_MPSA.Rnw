@@ -99,6 +99,15 @@ In the survey, I asked the respondents to imagine that they are a political cons
 \subsection{Research Findings}
 This section will discuss the empirical findings from the survey experiment I conducted in the US and Mexico in light of my theoretical expectations. Proposition 1 had argued that the relationship between these four types of districts should be $a>b>c>d$. As discussed previously, this means that competitive districts tend to receive more vote buying than non-competitive or stronghold districts ($a>d$ and $b>c$). The proposition also puts forward a second set of hypotheses that the gap between districts will be higher under SMD than they are under PR systems ($a>b$ and $c>d$). Now, let us see whether the survey experiment data supports the this theory.\\
 \\
+\includegraphics[width=90mm]{Boxplot_Pooled}
+\\
+\includegraphics[width=90mm]{Regressions_All}
+\includegraphics[width=90mm]{Coefficients_All}
+\includegraphics[width=90mm]{Coefficients_UIUC}
+\includegraphics[width=90mm]{Coefficients_ITAM}
+\includegraphics[width=90mm]{Interactive_ITAM}
+\includegraphics[width=90mm]{Interactive_UIUC}
+\includegraphics[width=90mm]{Regressions_ITAM}
 In order to test the hypothesis, I conducted a simple regression model\footnote{Ordinary Least Squares (OLS) with robust standard errors} from the data combined the students from University of Illinois in the US, and Instituto Tecnol\'{o}gico Aut\'{o}nomo de M\'{e}xico (ITAM) in Mexico.\\
 \\
 
@@ -164,10 +173,10 @@ names(subdata_12.melt)[4]<-"District_Spending"
 @
 
 <<echo=False, fig=TRUE>>=
-
-ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm', se = FALSE) + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0)) + coord_cartesian(ylim = c(4000,20000))
+#ggplot(subdata_12.melt, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm', se = FALSE) + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0)) + coord_cartesian(ylim = c(4000,20000))
 #coord_fixed(ratio = 0.00001)
 @
+
 
 <<echo=FALSE>>=
 # For instance, studies examining economic policy, turnout or legislators have
