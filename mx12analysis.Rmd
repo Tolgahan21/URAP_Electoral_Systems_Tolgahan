@@ -199,7 +199,7 @@ all_data = rbind(subdata_12.melt[c("District_Spending", "Competitiveness", "Inst
 
 ggplot(all_data, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm',se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("ITAM & UIUC (Pooled)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0))
 
-ggplot(all_data, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .1) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("ITAM & UIUC (Pooled)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
+ggplot(all_data, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .000001) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("ITAM & UIUC (Pooled)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
 
 Pooled_model = lm(District_Spending ~ Competitive + Binary_IT + Competitive*Binary_IT, data = all_data)
 

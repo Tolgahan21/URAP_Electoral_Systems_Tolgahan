@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 22:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 23:01
 entering extended mode
 **./Dilgin_MPSA.tex
 (Dilgin_MPSA.tex
@@ -711,36 +711,217 @@ File: ./figure/Regressions_All.png Graphic file (type png)
 Package pdftex.def Info: ./figure/Regressions_All.png  used on input line 112.
 (pdftex.def)             Requested size: 256.0748pt x 209.49321pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--115
+! Missing $ inserted.
+<inserted text> 
+                $
+l.115 \begin{left}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \def 
+l.116 	\begin{tabular}
+                      { |c|c|c| }
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.125 \end{left}
+                \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.125 \end{left}
+                \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.134 \begin{left}
+                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \def 
+l.135 	\begin{tabular}
+                      { |c|c|c| }
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Missing \right. inserted.
+<inserted text> 
+                \right .
+l.144 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.144 \end{left}
+                
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.145 \begin{right}
+                   
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing delimiter (. inserted).
+<to be read again> 
+                   \def 
+l.146 	\begin{tabular}
+                      { |c|c|c| }
+I was expecting to see something like `(' or `\{' or
+`\}' here. If you typed, e.g., `{' instead of `\{', you
+should probably delete the `{' by typing `1' now, so that
+braces don't get unbalanced. Otherwise just proceed.
+Acceptable delimiters are characters whose \delcode is
+nonnegative, or you can use `\delimiter <delimiter code>'.
+
+! Extra \right.
+<to be read again> 
+                   \def 
+l.146 	\begin{tabular}
+                      { |c|c|c| }
+I'm ignoring a \right that had no matching \left.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.155 \end{right}
+                 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<./figure/Regression_Fine.png, id=37, 296.90926pt x 227.6505pt>
+File: ./figure/Regression_Fine.png Graphic file (type png)
+<use ./figure/Regression_Fine.png>
+Package pdftex.def Info: ./figure/Regression_Fine.png  used on input line 160.
+(pdftex.def)             Requested size: 284.52756pt x 218.1564pt.
+<./figure/Interactive_Pooled.png, id=38, 408.02437pt x 289.08pt>
+File: ./figure/Interactive_Pooled.png Graphic file (type png)
+<use ./figure/Interactive_Pooled.png>
+Package pdftex.def Info: ./figure/Interactive_Pooled.png  used on input line 16
+4.
+(pdftex.def)             Requested size: 341.43306pt x 241.91246pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--115
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
 
  []
 
 
-Overfull \hbox (44.61455pt too wide) in paragraph at lines 102--115
+Overfull \hbox (44.61455pt too wide) in paragraph at lines 102--165
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--115
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--115
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--115
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
 
  []
 
-[7 <./figure/Boxplot_Pooled.png>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--165
+
+ []
+
+[7 <./figure/Boxplot_Pooled.png>] [8 <./figure/Boxplot_UIUC.png> <./figure/Boxp
+lot_ITAM.png> <./figure/Regressions_All.png>] [9 <./figure/Regression_Fine.png>
+]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -748,158 +929,58 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.126 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.127 T
-       he results seem to be in line with the theory. That is, we see that c...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<./figure/Regression_Fine.png, id=43, 287.27325pt x 216.20775pt>
-File: ./figure/Regression_Fine.png Graphic file (type png)
-<use ./figure/Regression_Fine.png>
-Package pdftex.def Info: ./figure/Regression_Fine.png  used on input line 131.
-(pdftex.def)             Requested size: 284.52756pt x 214.1552pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--134
-
- []
-
-[8 <./figure/Boxplot_UIUC.png> <./figure/Boxplot_ITAM.png> <./figure/Regression
-s_All.png>]
-<./figure/Coefficients_ITAM.png, id=50, 148.30406pt x 51.94406pt>
-File: ./figure/Coefficients_ITAM.png Graphic file (type png)
-<use ./figure/Coefficients_ITAM.png>
-Package pdftex.def Info: ./figure/Coefficients_ITAM.png  used on input line 138
-.
-(pdftex.def)             Requested size: 199.16928pt x 69.76239pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
-
- []
-
-<./figure/Coefficients_UIUC.png, id=51, 150.5625pt x 49.68562pt>
-File: ./figure/Coefficients_UIUC.png Graphic file (type png)
-<use ./figure/Coefficients_UIUC.png>
-Package pdftex.def Info: ./figure/Coefficients_UIUC.png  used on input line 140
-.
-(pdftex.def)             Requested size: 199.16928pt x 65.7323pt.
-<./figure/Interactive_ITAM.png, id=52, 411.78844pt x 289.08pt>
-File: ./figure/Interactive_ITAM.png Graphic file (type png)
-<use ./figure/Interactive_ITAM.png>
-Package pdftex.def Info: ./figure/Interactive_ITAM.png  used on input line 142.
-
-(pdftex.def)             Requested size: 341.43306pt x 239.68932pt.
-<./figure/Interactive_UIUC.png, id=53, 410.2828pt x 286.82156pt>
-File: ./figure/Interactive_UIUC.png Graphic file (type png)
-<use ./figure/Interactive_UIUC.png>
-Package pdftex.def Info: ./figure/Interactive_UIUC.png  used on input line 144.
-
-(pdftex.def)             Requested size: 341.43306pt x 238.68767pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--145
-
- []
-
-[9 <./figure/Regression_Fine.png> <./figure/Coefficients_ITAM.png> <./figure/Co
-efficients_UIUC.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.153 
+l.179 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(Dilgin_MPSA.bbl [10 <./figure/Interactive_ITAM.png> <./figure/Interactive_UIUC
-.png>])
-<./figure/Respondents_1.png, id=65, 1023.825pt x 591.71063pt>
+(Dilgin_MPSA.bbl)
+<./figure/Respondents_1.png, id=56, 1023.825pt x 591.71063pt>
 File: ./figure/Respondents_1.png Graphic file (type png)
 <use ./figure/Respondents_1.png>
-Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 164.
+Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 190.
 (pdftex.def)             Requested size: 512.1496pt x 295.99002pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
  []
 
 
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 162--166
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 188--192
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 162--166
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
  []
 
-[11 <./figure/Respondents_1.png>] (Dilgin_MPSA.aux) ) 
+[10 <./figure/Interactive_Pooled.png>] [11 <./figure/Respondents_1.png>]
+(Dilgin_MPSA.aux) ) 
 Here is how much of TeX's memory you used:
- 6073 strings out of 492973
- 88968 string characters out of 3135923
+ 6067 strings out of 492973
+ 88573 string characters out of 3135923
  160870 words of memory out of 3000000
- 9754 multiletter control sequences out of 15000+200000
- 42342 words of font info for 97 fonts, out of 3000000 for 9000
+ 9745 multiletter control sequences out of 15000+200000
+ 45486 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,40p,2203b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmti10.pfb>
-Output written on Dilgin_MPSA.pdf (11 pages, 574917 bytes).
+ 42i,8n,40p,2203b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dilgin_MPSA.pdf (11 pages, 549822 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 55 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 40 words of extra memory for PDF output out of 10000 (max. 10000000)
 
