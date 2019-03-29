@@ -106,12 +106,34 @@ In the graph, the horizontal axis indicates the level of competition measured by
 \\
 \includegraphics[width=90mm]{Boxplot_UIUC}
 \includegraphics[width=90mm]{Boxplot_ITAM}\\
-When we look at the individual samples, they are largely simmilar. In competitive districts SMDs tend to get more spending, whereas they do receive less or equal spending in strongholds. The only difference from the pooled data is that the equality in districts with 50\% margin disappears in the UIUC data in favor of the theory. Upon the visual inspection of descriptive statistics, we may also look whether these seeming differences between means are statistically meaningful. In order to test the hypothesis, I conducted a simple regression model\footnote{Ordinary Least Squares (OLS) with robust standard errors} from the data combined the students from University of Illinois in the US, and Instituto Tecnol\'{o}gico Aut\'{o}nomo de M\'{e}xico (ITAM) in Mexico. The followings are the results:\\
+When we look at the individual samples, they are largely simmilar. In competitive districts SMDs tend to get more spending, whereas they do receive less or equal spending in strongholds. The only difference from the pooled data is that the equality in districts with 50\% margin disappears in the UIUC data in favor of the theory. Upon the visual inspection of descriptive statistics, we may also look whether these seeming differences between means are statistically meaningful. \\
 \\
 \includegraphics[width=90mm]{Regressions_All}\\
 \\
-\includegraphics[width=70mm]{Coefficients_Pooled}\\
+In order to test the hypothesis, I conducted a simple regression model\footnote{Ordinary Least Squares (OLS) with robust standard errors} from the data combined the students from University of Illinois in the US, and Instituto Tecnol\'{o}gico Aut\'{o}nomo de M\'{e}xico (ITAM) in Mexico. This means calculation of predicted values would be as follows:\\
+\begin{center}
+	\begin{tabular}{ |c|c|c| } 
+		\hline
+		 & Competitive & Stronghold \\ 
+		\hline
+		SMD & 18,634 & 7,269 \\ 
+		\hline
+		PR & 16,496 & 8,269 \\ 
+		\hline
+	\end{tabular}
+\end{center}\\
 \\
+The results seem to be in line with the theory. That is, we see that competitive districts tend to get more spending than the strongholds confirming the hypotheses a>d and b>c. We also see that competitive districts in SMDs get more spending than the competitive districts than PR (a>b), whereas strongholds in PR receive more than strongholds in SMD systems (c>d). \\
+\\
+In this model, all of independent variables are binary indicators coded as 1 or 0. How would our results change if we were to use a more finer-grained measure of competition? The following model shows the answer to this question. In the model, the variable "competitive" is replaced by "Margin of Vote" variable, which shows the margin of vote between the winning and losing parties in the district. The variable ranges between -0.50, which indicates a stronghold to 0.00 which is the most competitive district, where vote shares are equal, and margin of vote is 0 (zero) between the competing two parties. \\
+\\
+\includegraphics[width=100mm]{Regression_Fine}\\
+\\
+With the finer-grained competitiveness measure, the results seem to provide stronger evidence in line with the theory. A better description of the finding could be through the following visualization. In order to given an idea about the frequency of data points, I used jittering, which adds random values to the original data value. That is, although the margin of vote in many districts is sharply on 0.10, the it seems like there are many points around 0.10.\\
+
+
+
+
 \includegraphics[width=70mm]{Coefficients_ITAM}\\
 
 \includegraphics[width=70mm]{Coefficients_UIUC}\\
