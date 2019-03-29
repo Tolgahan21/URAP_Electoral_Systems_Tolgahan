@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 09:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 22:20
 entering extended mode
 **./Dilgin_MPSA.tex
 (Dilgin_MPSA.tex
@@ -554,47 +554,47 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 26.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--55
+Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
  []
 
@@ -602,22 +602,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
 {C:/Users/Tolgahan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 57--66
+Underfull \hbox (badness 10000) in paragraph at lines 58--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--66
+Underfull \hbox (badness 10000) in paragraph at lines 58--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--66
+Underfull \hbox (badness 10000) in paragraph at lines 58--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--66
+Underfull \hbox (badness 10000) in paragraph at lines 58--67
 
  []
 
@@ -629,7 +629,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77 \\
+l.78 \\
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -642,7 +642,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 I
+l.79 I
       n line with Proposition 1, the paper's theory can be summarized as $a>...
 
 Your command was ignored.
@@ -650,158 +650,209 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--88
+Underfull \hbox (badness 10000) in paragraph at lines 82--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--88
+Underfull \hbox (badness 10000) in paragraph at lines 82--89
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--88
+Underfull \hbox (badness 10000) in paragraph at lines 82--89
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
+Underfull \hbox (badness 10000) in paragraph at lines 90--93
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 94--100
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--100
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--100
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--100
+Underfull \hbox (badness 10000) in paragraph at lines 95--101
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
-
- []
-
 <./figure/Boxplot_Pooled.png, id=32, 414.04688pt x 292.84406pt>
 File: ./figure/Boxplot_Pooled.png Graphic file (type png)
 <use ./figure/Boxplot_Pooled.png>
-Package pdftex.def Info: ./figure/Boxplot_Pooled.png  used on input line 105.
+Package pdftex.def Info: ./figure/Boxplot_Pooled.png  used on input line 104.
 (pdftex.def)             Requested size: 341.43306pt x 241.49208pt.
-<./figure/Regressions_All.png, id=34, 251.43938pt x 220.57407pt>
+<./figure/Boxplot_UIUC.png, id=34, 412.54124pt x 289.83281pt>
+File: ./figure/Boxplot_UIUC.png Graphic file (type png)
+<use ./figure/Boxplot_UIUC.png>
+Package pdftex.def Info: ./figure/Boxplot_UIUC.png  used on input line 108.
+(pdftex.def)             Requested size: 256.0748pt x 179.90675pt.
+<./figure/Boxplot_ITAM.png, id=35, 406.51875pt x 283.0575pt>
+File: ./figure/Boxplot_ITAM.png Graphic file (type png)
+<use ./figure/Boxplot_ITAM.png>
+Package pdftex.def Info: ./figure/Boxplot_ITAM.png  used on input line 109.
+(pdftex.def)             Requested size: 256.0748pt x 178.30988pt.
+<./figure/Regressions_All.png, id=36, 251.43938pt x 220.57407pt>
 File: ./figure/Regressions_All.png Graphic file (type png)
 <use ./figure/Regressions_All.png>
-Package pdftex.def Info: ./figure/Regressions_All.png  used on input line 107.
-(pdftex.def)             Requested size: 341.43306pt x 299.51901pt.
-<./figure/Coefficients_Pooled.png, id=35, 150.5625pt x 54.9553pt>
+Package pdftex.def Info: ./figure/Regressions_All.png  used on input line 112.
+(pdftex.def)             Requested size: 256.0748pt x 224.63925pt.
+<./figure/Coefficients_Pooled.png, id=37, 150.5625pt x 54.9553pt>
 File: ./figure/Coefficients_Pooled.png Graphic file (type png)
 <use ./figure/Coefficients_Pooled.png>
 Package pdftex.def Info: ./figure/Coefficients_Pooled.png  used on input line 1
-08.
+14.
 (pdftex.def)             Requested size: 199.16928pt x 72.70387pt.
-<./figure/Coefficients_UIUC.png, id=36, 150.5625pt x 49.68562pt>
-File: ./figure/Coefficients_UIUC.png Graphic file (type png)
-<use ./figure/Coefficients_UIUC.png>
-Package pdftex.def Info: ./figure/Coefficients_UIUC.png  used on input line 109
-.
-(pdftex.def)             Requested size: 199.16928pt x 65.7323pt.
-<./figure/Coefficients_ITAM.png, id=37, 148.30406pt x 51.94406pt>
+<./figure/Coefficients_ITAM.png, id=38, 148.30406pt x 51.94406pt>
 File: ./figure/Coefficients_ITAM.png Graphic file (type png)
 <use ./figure/Coefficients_ITAM.png>
-Package pdftex.def Info: ./figure/Coefficients_ITAM.png  used on input line 110
+Package pdftex.def Info: ./figure/Coefficients_ITAM.png  used on input line 116
 .
 (pdftex.def)             Requested size: 199.16928pt x 69.76239pt.
-<./figure/Interactive_ITAM.png, id=38, 411.78844pt x 289.08pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--117
+
+ []
+
+
+Overfull \hbox (44.61455pt too wide) in paragraph at lines 102--117
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--117
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--117
+
+ []
+
+[7 <./figure/Boxplot_Pooled.png>] [8 <./figure/Boxplot_UIUC.png> <./figure/Boxp
+lot_ITAM.png> <./figure/Regressions_All.png> <./figure/Coefficients_Pooled.png>
+]
+<./figure/Coefficients_UIUC.png, id=52, 150.5625pt x 49.68562pt>
+File: ./figure/Coefficients_UIUC.png Graphic file (type png)
+<use ./figure/Coefficients_UIUC.png>
+Package pdftex.def Info: ./figure/Coefficients_UIUC.png  used on input line 118
+.
+(pdftex.def)             Requested size: 199.16928pt x 65.7323pt.
+<./figure/Interactive_ITAM.png, id=53, 411.78844pt x 289.08pt>
 File: ./figure/Interactive_ITAM.png Graphic file (type png)
 <use ./figure/Interactive_ITAM.png>
-Package pdftex.def Info: ./figure/Interactive_ITAM.png  used on input line 111.
+Package pdftex.def Info: ./figure/Interactive_ITAM.png  used on input line 120.
 
 (pdftex.def)             Requested size: 341.43306pt x 239.68932pt.
-<./figure/Interactive_UIUC.png, id=39, 410.2828pt x 286.82156pt>
+<./figure/Interactive_UIUC.png, id=54, 410.2828pt x 286.82156pt>
 File: ./figure/Interactive_UIUC.png Graphic file (type png)
 <use ./figure/Interactive_UIUC.png>
-Package pdftex.def Info: ./figure/Interactive_UIUC.png  used on input line 112.
+Package pdftex.def Info: ./figure/Interactive_UIUC.png  used on input line 122.
 
 (pdftex.def)             Requested size: 341.43306pt x 238.68767pt.
-<./figure/Regressions_ITAM.png, id=40, 248.42813pt x 258.9675pt>
-File: ./figure/Regressions_ITAM.png Graphic file (type png)
-<use ./figure/Regressions_ITAM.png>
-Package pdftex.def Info: ./figure/Regressions_ITAM.png  used on input line 113.
 
-(pdftex.def)             Requested size: 341.43306pt x 355.94505pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 103--114
-
- []
-
-[7 <./figure/Boxplot_Pooled.png>] [8 <./figure/Regressions_All.png> <./figure/C
-oefficients_Pooled.png> <./figure/Coefficients_UIUC.png> <./figure/Coefficients
-_ITAM.png>] [9 <./figure/Interactive_ITAM.png> <./figure/Interactive_UIUC.png>]
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--118
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
-(Dilgin_MPSA.bbl [10 <./figure/Regressions_ITAM.png>])
-<./figure/Respondents_1.png, id=62, 1023.825pt x 591.71063pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--123
+
+ []
+
+[9 <./figure/Coefficients_ITAM.png> <./figure/Coefficients_UIUC.png> <./figure/
+Interactive_ITAM.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(Dilgin_MPSA.bbl)
+<./figure/Respondents_1.png, id=61, 1023.825pt x 591.71063pt>
 File: ./figure/Respondents_1.png Graphic file (type png)
 <use ./figure/Respondents_1.png>
-Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 129.
+Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 142.
 (pdftex.def)             Requested size: 512.1496pt x 295.99002pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
 
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 127--131
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 140--144
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--131
+Underfull \hbox (badness 10000) in paragraph at lines 140--144
 
  []
 
-[11 <./figure/Respondents_1.png>] (Dilgin_MPSA.aux) ) 
+[10 <./figure/Interactive_UIUC.png>] [11 <./figure/Respondents_1.png>]
+(Dilgin_MPSA.aux) ) 
 Here is how much of TeX's memory you used:
- 6068 strings out of 492973
- 88872 string characters out of 3135923
+ 6073 strings out of 492973
+ 88988 string characters out of 3135923
  160870 words of memory out of 3000000
- 9750 multiletter control sequences out of 15000+200000
+ 9754 multiletter control sequences out of 15000+200000
  42342 words of font info for 97 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,40p,2203b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmbx9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dilgin_MPSA.pdf (11 pages, 387967 bytes).
+ 42i,8n,40p,2203b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dilgin_MPSA.pdf (11 pages, 450618 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 50 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 55 words of extra memory for PDF output out of 10000 (max. 10000000)
 

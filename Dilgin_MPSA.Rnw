@@ -29,7 +29,8 @@ This paper is part of dissertation research that examines the impact of electora
 \end{abstract}
 
 \section{Introduction}
-The consequences of electoral systems have been a widely debated topic in political science for several decades. The argument that Proportional Representation performs better on several aspects of democratic life goes back to John Stuart Mill's Considerations on  Representative Government \cite{mill1861considerations}. Likewise, the study of why several European countries shifted from Single Member District (SMD) system to Proportional Representation in Europe goes as early as 1930s \cite{braunias1932parlamentarische} and has been revisited recently frequently by scholars from 1970s onward \cite{rokkan_citizens_1970, boix_setting_1999, cusack_economic_2007}. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may have come into being, and how they may help us explain certain political phenomena.\\
+The consequences of electoral systems have been a widely debated topic in political science for several decades. The argument that Proportional 
+Representation performs better on several aspects of democratic life goes back to John Stuart Mill's Considerations on  Representative Government \cite{mill1861considerations}. Likewise, the study of why several European countries shifted from Single Member District (SMD) system to Proportional Representation in Europe goes as early as 1930s \cite{braunias1932parlamentarische} and has been revisited recently frequently by scholars from 1970s onward \cite{rokkan_citizens_1970, boix_setting_1999, cusack_economic_2007}. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may have come into being, and how they may help us explain certain political phenomena.\\
 \iffalse
 I made a reference to mill from Becher article.It says Chapter 7. Double-make sure that this is the case. I ordered the book online.
 \fi
@@ -97,22 +98,34 @@ As the electoral system in the US is SMD, American respondents are highly likely
 In the survey, I asked the respondents to imagine that they are a political consultant for a political party in the imaginary country of Hawaisteros. I stated that they have been hired to help the party win the elections. I stated that there are 9 districts in Hawaisteros: 3 are their party's strongholds, 3 are competitive districts, and last 3 are rival party's stronghold. I assigned each respondent 100,000 Lingots (the local currency of Hawaisteros) and asked them to distribute this amount across the 9 districts in a way that they think would maximize their chance to win this political game\footnote{See Appendix for the full text of the treatment, and the question measuring the effect of the treatments}.\\
 \\
 \subsection{Research Findings}
-This section will discuss the empirical findings from the survey experiment I conducted in the US and Mexico in light of my theoretical expectations. Proposition 1 had argued that the relationship between these four types of districts should be $a>b>c>d$. As discussed previously, this means that competitive districts tend to receive more vote buying than non-competitive or stronghold districts ($a>d$ and $b>c$). The proposition also puts forward a second set of hypotheses that the gap between districts will be higher under SMD than they are under PR systems ($a>b$ and $c>d$). Now, let us see whether the survey experiment data supports the this theory.\\
-
-Hello
+This section will discuss the empirical findings from the survey experiment I conducted in the US and Mexico in light of my theoretical expectations. Proposition 1 had argued that the relationship between these four types of districts should be $a>b>c>d$. As discussed previously, this means that competitive districts tend to receive more vote buying than non-competitive or stronghold districts ($a>d$ and $b>c$). The proposition also puts forward a second set of hypotheses that the gap between districts will be higher under SMD than they are under PR systems ($a>b$ and $c>d$). The following boxplot data that includes all the respondents pooled together helps see the preliminary results  support the theory.\\
 \\
 \includegraphics[width=120mm]{Boxplot_Pooled}
 \\
-\includegraphics[width=120mm]{Regressions_All}\\
+In the graph, the horizontal axis indicates the level of competition measured by the margin of vote that was given to the respondents. When forming this variable, I took the absolute values of the vote difference in percentages between the winning and losing parties, and multiplied this by $-1$ so that the more competitive districts will be on the right-hand side. In party strongholds we see that PR averages are either equal or more than the SMD averages, whereas in competitive districts we see that majoritarian districts tend to receive more campaign spending that PR in line with the theory.\\
+\\
+\includegraphics[width=90mm]{Boxplot_UIUC}
+\includegraphics[width=90mm]{Boxplot_ITAM}\\
+When we look at the individual samples, they are largely simmilar. In competitive districts SMDs tend to get more spending, whereas they do receive less or equal spending in strongholds. The only difference from the pooled data is that the equality in districts with 50\% margin disappears in the UIUC data in favor of the theory. Upon the visual inspection of descriptive statistics, we may also look whether these seeming differences between means are statistically meaningful. In order to test the hypothesis, I conducted a simple regression model\footnote{Ordinary Least Squares (OLS) with robust standard errors} from the data combined the students from University of Illinois in the US, and Instituto Tecnol\'{o}gico Aut\'{o}nomo de M\'{e}xico (ITAM) in Mexico. The followings are the results:\\
+\\
+\includegraphics[width=90mm]{Regressions_All}\\
+\\
 \includegraphics[width=70mm]{Coefficients_Pooled}\\
-\includegraphics[width=70mm]{Coefficients_UIUC}\\
+\\
 \includegraphics[width=70mm]{Coefficients_ITAM}\\
+
+\includegraphics[width=70mm]{Coefficients_UIUC}\\
+\\
 \includegraphics[width=120mm]{Interactive_ITAM}\\
+\\
 \includegraphics[width=120mm]{Interactive_UIUC}\\
-\includegraphics[width=120mm]{Regressions_ITAM}\\
+
+\iffalse
+\includegraphics[width=90mm]{Regressions_ITAM}\\
+\includegraphics[width=90mm]{Regressions_UIUC}\\
+\fi
 
 
-In order to test the hypothesis, I conducted a simple regression model\footnote{Ordinary Least Squares (OLS) with robust standard errors} from the data combined the students from University of Illinois in the US, and Instituto Tecnol\'{o}gico Aut\'{o}nomo de M\'{e}xico (ITAM) in Mexico.\\
 \\
 
 
@@ -155,7 +168,6 @@ Efficiency \&  vs. representativeness
 Representativeness \& inclusiveness (PR) vs. direct vertical accountability \& accessibility (SMD system)
 
 \fi
-
 
 
 \end{document}
