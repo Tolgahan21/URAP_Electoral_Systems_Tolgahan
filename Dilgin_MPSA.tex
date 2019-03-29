@@ -124,9 +124,17 @@ In order to test the hypothesis, I conducted a simple regression model\footnote{
 	\end{tabular}
 \end{center}\\
 \\
-
-\includegraphics[width=70mm]{Coefficients_Pooled}\\
+The results seem to be in line with the theory. That is, we see that competitive districts tend to get more spending than the strongholds confirming the hypotheses a>d and b>c. We also see that competitive districts in SMDs get more spending than the competitive districts than PR (a>b), whereas strongholds in PR receive more than strongholds in SMD systems (c>d). \\
 \\
+In this model, all of independent variables are binary indicators coded as 1 or 0. How would our results change if we were to use a more finer-grained measure of competition? The following model shows the answer to this question. In the model, the variable "competitive" is replaced by "Margin of Vote" variable, which shows the margin of vote between the winning and losing parties in the district. The variable ranges between -0.50, which indicates a stronghold to 0.00 which is the most competitive district, where vote shares are equal, and margin of vote is 0 (zero) between the competing two parties. \\
+\\
+\includegraphics[width=100mm]{Regression_Fine}\\
+\\
+With the finer-grained competitiveness measure, the results seem to provide stronger evidence in line with the theory. A better description of the finding could be through the following visualization. In order to given an idea about the frequency of data points, I used jittering, which adds random values to the original data value. That is, although the margin of vote in many districts is sharply on 0.10, the it seems like there are many points around 0.10.\\
+
+
+
+
 \includegraphics[width=70mm]{Coefficients_ITAM}\\
 
 \includegraphics[width=70mm]{Coefficients_UIUC}\\
