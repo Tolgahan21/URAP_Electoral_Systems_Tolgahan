@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 23:27
 entering extended mode
 **./Dilgin_MPSA.tex
 (Dilgin_MPSA.tex
@@ -838,12 +838,12 @@ File: ./figure/Regression_Fine.png Graphic file (type png)
 <use ./figure/Regression_Fine.png>
 Package pdftex.def Info: ./figure/Regression_Fine.png  used on input line 160.
 (pdftex.def)             Requested size: 284.52756pt x 218.1564pt.
-<./figure/Interactive_Pooled.png, id=38, 408.02437pt x 289.08pt>
+<./figure/Interactive_Pooled.png, id=38, 354.123pt x 245.718pt>
 File: ./figure/Interactive_Pooled.png Graphic file (type png)
 <use ./figure/Interactive_Pooled.png>
 Package pdftex.def Info: ./figure/Interactive_Pooled.png  used on input line 16
 4.
-(pdftex.def)             Requested size: 341.43306pt x 241.91246pt.
+(pdftex.def)             Requested size: 341.43306pt x 236.92891pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 102--165
 
@@ -929,35 +929,343 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.179 
+l.177 T
+       he graph shows each of the regression lines showing the averages of e...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--212
+
+ []
+
+[10 <./figure/Interactive_Pooled.png>] (Dilgin_MPSA.bbl [11])
+Underfull \hbox (badness 10000) in paragraph at lines 219--220
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--222
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+! Misplaced alignment tab character &.
+l.225 Carey, J. M., &
+                      Shugart, M. S. (1995). Incentives to cultivate a perso...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+! Misplaced alignment tab character &.
+l.227 McCubbins, M. D., &
+                          Rosenbluth, F. (1995). Party provision for persona...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+! Misplaced alignment tab character &.
+l.229 Tatebayashi, M., &
+                         McKean, M. (2002). Vote Division and Policy Differe...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+[12]
+<./figure/Respondents_1.png, id=66, 1023.825pt x 591.71063pt>
+File: ./figure/Respondents_1.png Graphic file (type png)
+<use ./figure/Respondents_1.png>
+Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 238.
+(pdftex.def)             Requested size: 512.1496pt x 295.99002pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--240
+
+ []
+
+
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 236--240
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--275
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--275
+
+ []
+
+[13 <./figure/Respondents_1.png>]
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.277 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.278 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.279 \\
+        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.280 
       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-(Dilgin_MPSA.bbl)
-<./figure/Respondents_1.png, id=56, 1023.825pt x 591.71063pt>
-File: ./figure/Respondents_1.png Graphic file (type png)
-<use ./figure/Respondents_1.png>
-Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 190.
-(pdftex.def)             Requested size: 512.1496pt x 295.99002pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
-
- []
-
-
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 188--192
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--192
-
- []
-
-[10 <./figure/Interactive_Pooled.png>] [11 <./figure/Respondents_1.png>]
-(Dilgin_MPSA.aux) ) 
+[14] (Dilgin_MPSA.aux) ) 
 Here is how much of TeX's memory you used:
  6067 strings out of 492973
  88573 string characters out of 3135923
@@ -965,22 +1273,22 @@ Here is how much of TeX's memory you used:
  9745 multiletter control sequences out of 15000+200000
  45486 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,40p,2203b,202s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dilgin_MPSA.pdf (11 pages, 549822 bytes).
+ 42i,8n,40p,2203b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
+x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dilgin_MPSA.pdf (14 pages, 545571 bytes).
 PDF statistics:
- 106 PDF objects out of 1000 (max. 8388607)
+ 116 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  40 words of extra memory for PDF output out of 10000 (max. 10000000)
 
