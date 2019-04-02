@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 23:35
 entering extended mode
 **./Dilgin_MPSA.tex
 (Dilgin_MPSA.tex
@@ -1151,144 +1151,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 236--249
 
  []
 
-[12]
-<./figure/Respondents_1.png, id=66, 1023.825pt x 591.71063pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 236--249
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.251 \includegraphics
+                      [width=140mm]{Survey_Question}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./figure/Survey_Question.png, id=66, 496.10344pt x 584.1825pt>
+File: ./figure/Survey_Question.png Graphic file (type png)
+<use ./figure/Survey_Question.png>
+Package pdftex.def Info: ./figure/Survey_Question.png  used on input line 251.
+(pdftex.def)             Requested size: 398.33858pt x 469.067pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--258
+
+ []
+
+[13]
+<./figure/Respondents_1.png, id=71, 1023.825pt x 591.71063pt>
 File: ./figure/Respondents_1.png Graphic file (type png)
 <use ./figure/Respondents_1.png>
-Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 238.
+Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 261.
 (pdftex.def)             Requested size: 512.1496pt x 295.99002pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--240
+Underfull \hbox (badness 10000) in paragraph at lines 259--263
 
  []
 
 
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 236--240
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 259--263
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 236--240
+Underfull \hbox (badness 10000) in paragraph at lines 259--263
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--275
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--275
-
- []
-
-[13 <./figure/Respondents_1.png>]
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.277 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.278 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.279 \\
-        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.280 
-      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[14] (Dilgin_MPSA.aux) ) 
+[14 <./figure/Survey_Question.png>] [15 <./figure/Respondents_1.png>]
+(Dilgin_MPSA.aux) ) 
 Here is how much of TeX's memory you used:
- 6067 strings out of 492973
- 88573 string characters out of 3135923
+ 6072 strings out of 492973
+ 88723 string characters out of 3135923
  160870 words of memory out of 3000000
- 9745 multiletter control sequences out of 15000+200000
+ 9749 multiletter control sequences out of 15000+200000
  45486 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,8n,40p,2203b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
-x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.p
-fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dilgin_MPSA.pdf (14 pages, 545571 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on Dilgin_MPSA.pdf (15 pages, 574358 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 40 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 45 words of extra memory for PDF output out of 10000 (max. 10000000)
 

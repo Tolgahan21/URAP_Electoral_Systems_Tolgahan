@@ -239,11 +239,10 @@ Tatebayashi, M., & McKean, M. (2002). Vote Division and Policy Differentiation S
 
 Schady, N. R. (2000). The political economy of expenditures by the Peruvian Social Fund (FONCODES), 1991-95. \textit{American Political Science Review}, 94(2), 289-304.\\
 
-Keefer, P., \& Khemani, S. (2009). When do legislators pass on pork? The role of political parties in determining legislator effort. \textit{American Political Science Review}, 103(1), 99-112.\\
-
+Keefer, P., \& Khemani, S. (2009). When do legislators pass on pork? The role of political parties in determining legislator effort. \textit{American Political Science Review}, 103(1), 99-112.
 \section{Appendix} 
 \subsection{Electoral Institutions and Political Party Treatments Randomly Given to Respondents}
-(Randomized Scenarios A and B:)\\
+(Randomized Scenarios A and B)\\
 (A) Imagine you are a political consultant for the opposition party in the imaginary country of Hawaisteros. You have been hired by your political party to help the party win the elections against the incumbent government. There are 9 districts in Hawaisteros. 3 of these districts are your strongholds, whereas 3 of them are the rival party's stronghold. The remaining 3 are the competitive districts. Your party gives you 100,000 Lingots (the local currency of Hawaisteros) to secure a winning outcome for your party. You can spend this money on activities (e.g. campaign ads, delivering goods, etc.) that would potentially change the election results in your favor. \\
 \\
 The following questions will ask you how you would spend this money. And our research team will combine your answers with other students' responses taking the governing party's role to see if your strategy wins the political game!\\
@@ -255,11 +254,13 @@ The following questions will ask you how you would spend this money. And our res
 (Randomized Electoral Rules PR and SMD:)\\
 (SMD) The electoral system works under Single Member District (SMD) Rules. That is, if you gain more than 50\% of the total vote in a district you win the sole 1 seat in that district. If you win 5 seats out of the total 9 seats being contested (each of the 9 districts has 1 seat), you win the right to establish a government in Hawaisteros. That is, you win the political game!\\
 \\
-(PR) The electoral system works under Proportional Representation (PR) Rules. That is, your vote share will be proportional to your seat share. That is, if you gain 40\% of the total vote in a district where there are 10 seats, then you will win 4 seats in that district. If you win more than 45 seats out of the total 90 seats being contested (each of the 9 districts has 10 seats), you win the right to establish a government in Hawaisteros. That is, you win the political game!\\
-\\
+(PR) The electoral system works under Proportional Representation (PR) Rules. That is, your vote share will be proportional to your seat share. That is, if you gain 40\% of the total vote in a district where there are 10 seats, then you will win 4 seats in that district. If you win more than 45 seats out of the total 90 seats being contested (each of the 9 districts has 10 seats), you win the right to establish a government in Hawaisteros. That is, you win the political game!
 \subsection{Political Consultancy Questions that Help Measure the Impact of Randomized Electoral Institutions Treatments}
 \\
-\includegraphics[width=140mm]{Appendix}
+\includegraphics[width=140mm]{Survey_Question}
+\\
+\\
+\\\\
 \\
 \\
 \\

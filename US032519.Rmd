@@ -10,19 +10,28 @@ library(tidyverse)
 library(dplyr)
 library(data.table)
 library(ggplot2)
+#install.packages("devtools")
+#devtools::install_github("ropensci/qualtRics")
 
-filename = "Tolgahan_Survey_March 25, 2019_11.55.csv"
+filename = "Tolgahan_Survey_April_1_2019.csv"
 headers = read_csv(filename, col_names = FALSE, n_max = 1)
 data = read_csv(filename, skip = 3, col_names = FALSE)
-colnames(data)= headers
+#data
+#head(data)
+colnames(data) = headers
 subdata = as.data.frame(data)
+colnames(subdata)
 subdata = subdata[subdata$Total>=90000 & subdata$Total<=100000,]
-
+subdata
+colnames(subdata)
 subdata_12 = select(subdata, Q41_635_TEXT, Q41_636_TEXT, Q41_637_TEXT, Q41_638_TEXT, Q41_639_TEXT, Q41_640_TEXT, Q41_641_TEXT, Q41_642_TEXT, Q41_643_TEXT, Condition)
+subdata_12
 ```
 
 ```{r}
 subdata_12.melt = melt(subdata_12, id="Condition") 
+subdata_12
+
 subdata_12.melt$variable = as.character(subdata_12.melt$variable)
 subdata_12.melt$variable[subdata_12.melt$variable == "Q41_635_TEXT"] = "-.3"
 subdata_12.melt$variable[subdata_12.melt$variable == "Q41_636_TEXT"] = "-.4"
@@ -62,6 +71,7 @@ for (i in subdata_12.melt$Condition) {
   }
 }
 
+subdata_12.melt
 subdata_12.melt = cbind(subdata_12.melt, Binary_IT, Competitive)
 names(subdata_12.melt)[2]<-"Competitiveness"
 names(subdata_12.melt)[3]<-"District_Spending"
