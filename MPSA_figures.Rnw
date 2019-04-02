@@ -1,0 +1,168 @@
+\documentclass{article}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+
+
+<<fig=TRUE, echo=FALSE>>=
+library(ggplot2)
+library(reshape2)
+library(dplyr)
+library(data.table)
+library(stargazer)
+require(knitr)
+require(kableExtra)
+
+data = read.csv("Mexican_Data_Combined.csv") 
+subdata = as.data.frame(data)
+subdata = subdata[subdata$Actual.Total>=90000 & subdata$Actual.Total<=100000,]
+
+subdata_12 = select(subdata, Respondent_ID, Institution_Type, P12_Distrito_1, P12_Distrito_2, P12_Distrito_3, P12_Distrito_4, P12_Distrito_5, P12_Distrito_6, P12_Distrito_7, P12_Distrito_8, P12_Distrito_9)
+
+subdata_12.melt = melt(subdata_12, id=c("Respondent_ID", "Institution_Type")) 
+subdata_12.melt$variable = as.character(subdata_12.melt$variable)
+subdata_12.melt$Institution_Type = as.character(subdata_12.melt$Institution_Type)
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_1"] = "-.3"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_2"] = "-.4"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_3"] = "-.5"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_4"] = "-.1"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_5"] = "0"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_6"] = "-.1"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_7"] = "-.5"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_8"] = "-.4"
+subdata_12.melt$variable[subdata_12.melt$variable == "P12_Distrito_9"] = "-.3"
+subdata_12.melt$Institution_Type[subdata_12.melt$Institution_Type == "RP"] = "PR"
+subdata_12.melt$Institution_Type[subdata_12.melt$Institution_Type == "MR"] = "SMD"
+subdata_12.melt = subdata_12.melt[complete.cases(subdata_12.melt), ]
+subdata_12.melt = transform(subdata_12.melt, variable = as.numeric(variable))
+
+Competitive = c()
+for (i in subdata_12.melt$variable) {
+  if (i == "0" | i == "-0.1") {
+    Competitive = c(Competitive, 1)
+  } else {
+    Competitive = c(Competitive, 0)
+  }
+}
+Binary_IT = c()
+for (i in subdata_12.melt$Institution_Type) {
+  if (i == "SMD") {
+    Binary_IT = c(Binary_IT, 1)
+  } else {
+    Binary_IT = c(Binary_IT, 0)
+  }
+}
+
+subdata_12.melt = cbind(subdata_12.melt, Binary_IT, Competitive)
+names(subdata_12.melt)[3]<-"Competitiveness"
+names(subdata_12.melt)[4]<-"District_Spending"
+
+amdata = read.csv("Statalik_Multiple.csv")
+amdata = as.data.frame(amdata)
+amdata = amdata[amdata$P12_Total>=90000 & amdata$P12_Total<=100000,]
+keep = c("District_Spending", "Competitiveness", "Institution_Type")
+amdata = (amdata[keep])
+amdata$Competitiveness = abs(amdata$Competitiveness) #normalize the competitiveness
+amdata$Competitiveness = -1 * (amdata$Competitiveness) #make all values negative
+
+Competitive = c()
+for (i in amdata$Competitiveness) {
+  if (i == "0" | i == "-0.1") {
+    Competitive = c(Competitive, 1)
+  } else {
+    Competitive = c(Competitive, 0)
+  }
+}
+Binary_IT = c()
+for (i in amdata$Institution_Type) {
+  if (i == "SMD") {
+    Binary_IT = c(Binary_IT, 1)
+  } else {
+    Binary_IT = c(Binary_IT, 0)
+  }
+}
+amdata = cbind(amdata, Binary_IT, Competitive)
+
+
+all_data = rbind(subdata_12.melt[c("District_Spending", "Competitiveness", "Institution_Type", "Binary_IT", "Competitive")], amdata)
+
+ggplot(all_data, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .000001) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("ITAM & UIUC (Pooled)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
+@
+
+<<fig=TRUE, echo=FALSE>>=
+ggplot(amdata, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter(width = .02) + geom_smooth(method='lm',se = FALSE) + geom_boxplot() + ggtitle("US Students (UIUC)") + labs(y="Petal length (cm)", x = "Sepal length (cm)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
+@
+
+<<fig=TRUE, echo=FALSE>>=
+ggplot(subdata_12.melt, aes(x = factor(Competitiveness), y = District_Spending, color = Institution_Type)) + geom_jitter() + labs(x = "Margin of Vote", y = "District Spending") + geom_smooth(method='lm', se = FALSE) + geom_boxplot() + ggtitle("Mexican Students (ITAM)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System")
+
+@
+
+<<echo=FALSE, results=tex>>=
+Mexico_model = lm(District_Spending ~ Competitive + Binary_IT + Competitive*Binary_IT, data = subdata_12.melt)
+
+American_model = lm(District_Spending ~ Competitive + Binary_IT + Competitive*Binary_IT, data = amdata)
+
+Pooled_model = lm(District_Spending ~ Competitive + Binary_IT + Competitive*Binary_IT, data = all_data)
+
+stargazer(Mexico_model, American_model, Pooled_model, header = FALSE, type = 'latex', digits = 0, title = "Electoral Institutions and Competitiveness", dep.var.labels=c("District Spending"), column.labels=c('ITAM', 'UIUC',  'Pooled'), covariate.labels=c("Competitive (Binary)", "SMD (Binary)", "SMD * Competitive"), omit.stat=c("LL","ser","f"), no.space=TRUE)
+@
+
+<<echo=FALSE, results = tex>>=
+Pooled_model = lm(District_Spending ~ Competitive + Binary_IT + Competitive*Binary_IT, data = all_data)
+
+SMD_Competitive = data.frame(Competitive = 1, Binary_IT = 1)
+SMD_Not_Competitive = data.frame(Competitive = 0, Binary_IT = 1)
+PR_Competitive = data.frame(Competitive = 1, Binary_IT = 0)
+PR_Not_Competitive = data.frame(Competitive = 0, Binary_IT = 0)
+
+Pooled_table = data.frame(cbind(c(format(round(predict(Pooled_model,SMD_Competitive),digits=0),big.mark=",",scientific=F), 
+                                    format(round(predict(Pooled_model,PR_Competitive),digits=0),big.mark=",",scientific=F)), 
+                                  c(format(round(predict(Pooled_model,SMD_Not_Competitive),digits=0),big.mark=",",scientific=F), 
+                                    format(round(predict(Pooled_model,PR_Not_Competitive),digits=0),big.mark=",",scientific=F))))
+
+rownames(Pooled_table) = c("SMD", "PR")
+colnames(Pooled_table) = c("Competitive", "Stronghold")
+
+kable(Pooled_table, "latex", caption = "ITAM and UIUC (Pooled)")
+@
+
+<<echo=FALSE, results = tex>>=
+Mexico_table = data.frame(cbind(c(
+  format(round(predict(Mexico_model,SMD_Competitive),digits=0),big.mark=",",scientific=F), 
+                                      format(round(predict(Mexico_model,PR_Competitive),digits=0),big.mark=",",scientific=F)), 
+                                c(format(round(predict(Mexico_model,SMD_Not_Competitive),digits=0),big.mark=",",scientific=F), 
+                                  format(round(predict(Mexico_model,PR_Not_Competitive),digits=0),big.mark=",",scientific=F))))
+
+rownames(Mexico_table) = c("SMD", "PR")
+colnames(Mexico_table) = c("Competitive", "Stronghold")
+
+kable(Mexico_table, "latex", caption = "ITAM Students (Mexico Sample)")
+@
+
+<<echo=FALSE, results = tex>>=
+American_table = data.frame(cbind(c(format(round(predict(American_model,SMD_Competitive),digits=0),big.mark=",",scientific=F), 
+                                    format(round(predict(American_model,PR_Competitive),digits=0),big.mark=",",scientific=F)), 
+                                  c(format(round(predict(American_model,SMD_Not_Competitive),digits=0),big.mark=",",scientific=F), 
+                                    format(round(predict(American_model,PR_Not_Competitive),digits=0),big.mark=",",scientific=F))))
+
+rownames(American_table) = c("SMD", "PR")
+colnames(American_table) = c("Competitive", "Stronghold")
+
+kable(American_table, "latex", caption = "UIUC Students (US Sample)")
+@
+
+
+<<fig=TRUE, echo=FALSE>>=
+ggplot(all_data, aes(x = Competitiveness, y = District_Spending, color = Institution_Type)) + geom_jitter() + geom_smooth(method='lm',se = FALSE) + coord_cartesian(ylim = c(4000,20000)) + ggtitle("ITAM & UIUC (Pooled)") + labs(y="District Spending", x = "Margin of Vote", color = "Electoral System") + scale_x_continuous(breaks = c(-.5, -.4, -.3, -.2, -.1, 0))
+@
+
+
+
+
+
+
+
+
+\end{document}
