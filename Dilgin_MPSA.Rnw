@@ -29,8 +29,8 @@ This paper is part of dissertation research that examines the impact of electora
 \end{abstract}
 
 \section{Introduction}
-The consequences of electoral systems have been a widely debated topic in political science for several decades. The argument that Proportional 
-Representation performs better on several aspects of democratic life goes back to John Stuart Mill's Considerations on  Representative Government \cite{mill1861considerations}. Likewise, the study of why several European countries shifted from Single Member District (SMD) system to Proportional Representation in Europe goes as early as 1930s \cite{braunias1932parlamentarische} and has been revisited recently frequently by scholars from 1970s onward \cite{rokkan_citizens_1970, boix_setting_1999, cusack_economic_2007}. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may have come into being, and how they may help us explain certain political phenomena.\\
+The consequences of electoral systems have been a widely debated topic in political science for several decades. The argument that proportional 
+representation (PR) performs better than other electoral systems in representative democracies goes back to John Stuart Mill's Considerations on  Representative Government \cite{mill1861considerations}. Likewise, the study of why several European countries shifted from single member district (SMD) systems to proportional representation in Europe goes as early as 1930s \cite{braunias1932parlamentarische} and has been revisited frequently by scholars from 1970s onward \cite{rokkan_citizens_1970, boix_setting_1999, cusack_economic_2007}. Ever since, the scholarly work has made important advances on our knowledge on how electoral institutions may have come into being, and how they may help us explain certain political phenomena.\\
 \iffalse
 I made a reference to mill from Becher article.It says Chapter 7. Double-make sure that this is the case. I ordered the book online.
 \fi
@@ -100,7 +100,15 @@ In the survey, I asked the respondents to imagine that they are a political cons
 \subsection{Research Findings}
 This section will discuss the empirical findings from the survey experiment I conducted in the US and Mexico in light of my theoretical expectations. Proposition 1 had argued that the relationship between these four types of districts should be $a>b>c>d$. As discussed previously, this means that competitive districts tend to receive more vote buying than non-competitive or stronghold districts ($a>d$ and $b>c$). The proposition also puts forward a second set of hypotheses that the gap between districts will be higher under SMD than they are under PR systems ($a>b$ and $c>d$). The following boxplot data that includes all the respondents pooled together helps see the preliminary results  support the theory.\\
 \\
-\includegraphics[width=120mm]{Boxplot_Pooled}
+
+
+<<echo=FALSE>>=
+#\includegraphics[width=120mm]{Boxplot_Pooled}
+
+ggplot
+@
+
+
 \\
 In the graph, the horizontal axis indicates the level of competition measured by the margin of vote that was given to the respondents. When forming this variable, I took the absolute values of the vote difference in percentages between the winning and losing parties, and multiplied this by $-1$ so that the more competitive districts will be on the right-hand side. In party strongholds we see that PR averages are either equal or more than the SMD averages, whereas in competitive districts we see that majoritarian districts tend to receive more campaign spending that PR in line with the theory.\\
 \\
