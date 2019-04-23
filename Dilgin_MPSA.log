@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  28 MAR 2019 23:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.9.16)  23 APR 2019 17:06
 entering extended mode
 **./Dilgin_MPSA.tex
 (Dilgin_MPSA.tex
@@ -554,47 +554,47 @@ LaTeX Font Info:    Try loading font information for U+rsfs on input line 26.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--56
+Underfull \hbox (badness 10000) in paragraph at lines 33--55
 
  []
 
@@ -602,22 +602,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--56
 
 {C:/Users/Tolgahan/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 58--67
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--67
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--67
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--67
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
 
  []
 
@@ -629,7 +629,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \\
+l.77 \\
        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -642,7 +642,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.79 I
+l.78 I
       n line with Proposition 1, the paper's theory can be summarized as $a>...
 
 Your command was ignored.
@@ -650,71 +650,88 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--89
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--89
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--89
+Underfull \hbox (badness 10000) in paragraph at lines 81--88
 
  []
 
 [4]
-Underfull \hbox (badness 10000) in paragraph at lines 90--93
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 94--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 94--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 94--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--101
+Underfull \hbox (badness 10000) in paragraph at lines 94--100
 
  []
 
 [6]
-<./figure/Boxplot_Pooled.png, id=32, 414.04688pt x 292.84406pt>
-File: ./figure/Boxplot_Pooled.png Graphic file (type png)
-<use ./figure/Boxplot_Pooled.png>
-Package pdftex.def Info: ./figure/Boxplot_Pooled.png  used on input line 104.
-(pdftex.def)             Requested size: 341.43306pt x 241.49208pt.
-<./figure/Boxplot_UIUC.png, id=34, 412.54124pt x 289.83281pt>
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--103
+
+ []
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 I
+       n the graph, the horizontal axis indicates the level of competition m...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+<./figure/Boxplot_UIUC.png, id=32, 412.54124pt x 289.83281pt>
 File: ./figure/Boxplot_UIUC.png Graphic file (type png)
 <use ./figure/Boxplot_UIUC.png>
-Package pdftex.def Info: ./figure/Boxplot_UIUC.png  used on input line 108.
+Package pdftex.def Info: ./figure/Boxplot_UIUC.png  used on input line 110.
 (pdftex.def)             Requested size: 256.0748pt x 179.90675pt.
-<./figure/Boxplot_ITAM.png, id=35, 406.51875pt x 283.0575pt>
+<./figure/Boxplot_ITAM.png, id=34, 406.51875pt x 283.0575pt>
 File: ./figure/Boxplot_ITAM.png Graphic file (type png)
 <use ./figure/Boxplot_ITAM.png>
-Package pdftex.def Info: ./figure/Boxplot_ITAM.png  used on input line 109.
+Package pdftex.def Info: ./figure/Boxplot_ITAM.png  used on input line 111.
 (pdftex.def)             Requested size: 256.0748pt x 178.30988pt.
-<./figure/Regressions_All.png, id=36, 367.3725pt x 300.52275pt>
+<./figure/Regressions_All.png, id=35, 367.3725pt x 300.52275pt>
 File: ./figure/Regressions_All.png Graphic file (type png)
 <use ./figure/Regressions_All.png>
-Package pdftex.def Info: ./figure/Regressions_All.png  used on input line 112.
+Package pdftex.def Info: ./figure/Regressions_All.png  used on input line 114.
 (pdftex.def)             Requested size: 256.0748pt x 209.49321pt.
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.115 \begin{left}
+l.117 \begin{left}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -722,7 +739,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    \def 
-l.116 	\begin{tabular}
+l.118 	\begin{tabular}
                       { |c|c|c| }
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -734,7 +751,7 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.125 \end{left}
+l.127 \end{left}
                 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -745,7 +762,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.125 \end{left}
+l.127 \end{left}
                 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -756,7 +773,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \begin{left}
+l.136 \begin{left}
                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -764,7 +781,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    \def 
-l.135 	\begin{tabular}
+l.137 	\begin{tabular}
                       { |c|c|c| }
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -776,7 +793,7 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 ! Missing \right. inserted.
 <inserted text> 
                 \right .
-l.144 \end{left}
+l.146 \end{left}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -787,7 +804,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.144 \end{left}
+l.146 \end{left}
                 
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -798,7 +815,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.145 \begin{right}
+l.147 \begin{right}
                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -806,7 +823,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing delimiter (. inserted).
 <to be read again> 
                    \def 
-l.146 	\begin{tabular}
+l.148 	\begin{tabular}
                       { |c|c|c| }
 I was expecting to see something like `(' or `\{' or
 `\}' here. If you typed, e.g., `{' instead of `\{', you
@@ -818,14 +835,14 @@ nonnegative, or you can use `\delimiter <delimiter code>'.
 ! Extra \right.
 <to be read again> 
                    \def 
-l.146 	\begin{tabular}
+l.148 	\begin{tabular}
                       { |c|c|c| }
 I'm ignoring a \right that had no matching \left.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.155 \end{right}
+l.157 \end{right}
                  \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -833,95 +850,89 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-<./figure/Regression_Fine.png, id=37, 296.90926pt x 227.6505pt>
+<./figure/Regression_Fine.png, id=36, 296.90926pt x 227.6505pt>
 File: ./figure/Regression_Fine.png Graphic file (type png)
 <use ./figure/Regression_Fine.png>
-Package pdftex.def Info: ./figure/Regression_Fine.png  used on input line 160.
+Package pdftex.def Info: ./figure/Regression_Fine.png  used on input line 162.
 (pdftex.def)             Requested size: 284.52756pt x 218.1564pt.
-<./figure/Interactive_Pooled.png, id=38, 354.123pt x 245.718pt>
+<./figure/Interactive_Pooled.png, id=37, 354.123pt x 245.718pt>
 File: ./figure/Interactive_Pooled.png Graphic file (type png)
 <use ./figure/Interactive_Pooled.png>
 Package pdftex.def Info: ./figure/Interactive_Pooled.png  used on input line 16
-4.
+6.
 (pdftex.def)             Requested size: 341.43306pt x 236.92891pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
-
- []
-
-
-Overfull \hbox (44.61455pt too wide) in paragraph at lines 102--165
+Overfull \hbox (44.61455pt too wide) in paragraph at lines 108--167
 [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--165
+Underfull \hbox (badness 10000) in paragraph at lines 108--167
 
  []
 
-[7 <./figure/Boxplot_Pooled.png>] [8 <./figure/Boxplot_UIUC.png> <./figure/Boxp
-lot_ITAM.png> <./figure/Regressions_All.png>] [9 <./figure/Regression_Fine.png>
-]
+[7 <./figure/Boxplot_UIUC.png> <./figure/Boxplot_ITAM.png>] [8 <./figure/Regres
+sions_All.png>]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -929,169 +940,164 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 T
+l.179 T
        he graph shows each of the regression lines showing the averages of e...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+[9 <./figure/Regression_Fine.png> <./figure/Interactive_Pooled.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--212
-
- []
-
-[10 <./figure/Interactive_Pooled.png>] (Dilgin_MPSA.bbl [11])
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 182--214
+
+ []
+
+[10] (Dilgin_MPSA.bbl [11])
 Underfull \hbox (badness 10000) in paragraph at lines 221--222
 
  []
@@ -1101,24 +1107,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
 
-! Misplaced alignment tab character &.
-l.225 Carey, J. M., &
-                      Shugart, M. S. (1995). Incentives to cultivate a perso...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
 ! Misplaced alignment tab character &.
-l.227 McCubbins, M. D., &
-                          Rosenbluth, F. (1995). Party provision for persona...
+l.227 Carey, J. M., &
+                      Shugart, M. S. (1995). Incentives to cultivate a perso...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1132,8 +1128,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 227--228
  []
 
 ! Misplaced alignment tab character &.
-l.229 Tatebayashi, M., &
-                         McKean, M. (2002). Vote Division and Policy Differe...
+l.229 McCubbins, M. D., &
+                          Rosenbluth, F. (1995). Party provision for persona...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -1146,36 +1142,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
+! Misplaced alignment tab character &.
+l.231 Tatebayashi, M., &
+                         McKean, M. (2002). Vote Division and Policy Differe...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 231--232
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--251
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--251
+
+ []
+
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 236--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--249
-
- []
-
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1183,83 +1195,83 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.251 \includegraphics
+l.253 \includegraphics
                       [width=140mm]{Survey_Question}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<./figure/Survey_Question.png, id=66, 496.10344pt x 584.1825pt>
+<./figure/Survey_Question.png, id=64, 496.10344pt x 584.1825pt>
 File: ./figure/Survey_Question.png Graphic file (type png)
 <use ./figure/Survey_Question.png>
-Package pdftex.def Info: ./figure/Survey_Question.png  used on input line 251.
+Package pdftex.def Info: ./figure/Survey_Question.png  used on input line 253.
 (pdftex.def)             Requested size: 398.33858pt x 469.067pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--258
+Underfull \hbox (badness 10000) in paragraph at lines 253--260
 
  []
 
 [13]
-<./figure/Respondents_1.png, id=71, 1023.825pt x 591.71063pt>
+<./figure/Respondents_1.png, id=69, 1023.825pt x 591.71063pt>
 File: ./figure/Respondents_1.png Graphic file (type png)
 <use ./figure/Respondents_1.png>
-Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 261.
+Package pdftex.def Info: ./figure/Respondents_1.png  used on input line 263.
 (pdftex.def)             Requested size: 512.1496pt x 295.99002pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--263
+Underfull \hbox (badness 10000) in paragraph at lines 261--265
 
  []
 
 
-Overfull \hbox (42.39458pt too wide) in paragraph at lines 259--263
+Overfull \hbox (42.39458pt too wide) in paragraph at lines 261--265
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--263
+Underfull \hbox (badness 10000) in paragraph at lines 261--265
 
  []
 
 [14 <./figure/Survey_Question.png>] [15 <./figure/Respondents_1.png>]
 (Dilgin_MPSA.aux) ) 
 Here is how much of TeX's memory you used:
- 6072 strings out of 492973
- 88723 string characters out of 3135923
+ 6067 strings out of 492973
+ 88587 string characters out of 3135923
  160870 words of memory out of 3000000
- 9749 multiletter control sequences out of 15000+200000
+ 9745 multiletter control sequences out of 15000+200000
  45486 words of font info for 103 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,8n,40p,2203b,224s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,40p,2197b,226s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Pr
@@ -1272,9 +1284,9 @@ fonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
 mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
 m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Dilgin_MPSA.pdf (15 pages, 574358 bytes).
+Output written on Dilgin_MPSA.pdf (15 pages, 539576 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 119 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 45 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 40 words of extra memory for PDF output out of 10000 (max. 10000000)
 
