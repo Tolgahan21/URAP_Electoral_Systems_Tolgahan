@@ -232,6 +232,15 @@ The analytical results provided evidence with the theoretical claim that competi
 
 \bibliographystyle{apacite}
 \bibliography{MPSA_References}
+
+\iffalse
+Afrobarometer's conditions that I agreed:
+to acknowledge Afrobarometer as the source of the data in all publications resulting from its use by means of bibliographic citation in this form:
+Afrobarometer Data, [Country(ies)], [Round(s)], [Year(s)],available at http://www.afrobarometer.org
+5.	to acknowledge AidData as the source of the geocodes in all publications resulting from its use by means of bibliographic citation in this form:
+BenYishay, A., Rotberg, R., Wells, J., Lv, Z., Goodman, S., Kovacevic, L., Runfola, D. 2017. Geocoding Afrobarometer Rounds 1-6: Methodology & Data Quality. AidData. Available online at http://docs.aiddata.org/ad4/pdfs/geocodingafrobarometer.pdf.
+\fi
+
 Duverger, M. (1959). \textit{Political parties: Their organization and activity in the modern state.} Methuen.\\
 
 Kitschelt, H., \& Wilkinson, S. I. (Eds.). (2007). \textit{Patrons, clients and policies: Patterns of democratic accountability and political competition}. Cambridge University Press.\\
