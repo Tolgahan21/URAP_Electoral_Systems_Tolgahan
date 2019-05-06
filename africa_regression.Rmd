@@ -89,7 +89,8 @@ ggplot(data = dat1, aes(x = PROP_UNDECIDED, y = PROP_VOTEBUYING)) +
 
 Regression equation
 ```{r}
-lm(PROP_VOTEBUYING ~ ELECTORAL_SYSTEM + PROP_UNDECIDED + ELECTORAL_SYSTEM*PROP_UNDECIDED, data = dat1)
+regression = lm(PROP_VOTEBUYING ~ ELECTORAL_SYSTEM + PROP_UNDECIDED + ELECTORAL_SYSTEM*PROP_UNDECIDED, data = dat1)
+summary(regression)
 ```
 
 
