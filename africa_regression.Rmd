@@ -1,0 +1,96 @@
+---
+title: "Untitled"
+author: "Alan Yu ayu24@illinois.edu"
+date: "5/3/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE) #displays code in output document
+```
+
+```{r load data}
+require(readstata13)
+library(dplyr)
+library(ggplot2)
+dat <- read.dta13("AfroBarometerSubsetRound5.dta", nonint.factors = TRUE)
+```
+
+COUNTRY_ALPHA = Country in alphabetical order
+REGION = Province or region
+
+Q61F = And during the last national election in [20xx], how often, if ever did a candidate or someone from a political party offer you something, like food or a gift or money, in return for your vote? 
+Q89A = Do you feel close to any particular political party?
+
+```{r}
+#recode Countries
+dat$Q61F = as.character(dat$Q61F)
+dat$Q89A = as.character(dat$Q89A)
+
+dat$Q61F[dat$Q61F == "Never"] = 0
+dat$Q61F[dat$Q61F == "Once or Twice"] = 1
+dat$Q61F[dat$Q61F == "A Few Times"] = 2
+dat$Q61F[dat$Q61F == "Often"] = 3
+
+dat$Q89A[dat$Q89A == "Yes, feels close to a party"] = 1
+dat$Q89A[dat$Q89A == "No, not close to any party"] = 0
+
+### create electoral system column. 1 if SMD 0 if PR, ignore MIXED countries
+dat$ELECTORAL_SYSTEM = 0 #default 0
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Botswana"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Cameroon"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Cote d’Ivoire"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Egypt"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Ghana"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Kenya"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Liberia"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Malawi"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Mali"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Mauritius"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Nigeria"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Sierra Leone"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Swaziland"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Tanzania"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Uganda"] = 1 
+dat$ELECTORAL_SYSTEM[dat$COUNTRY_ALPHA == "Zambia"] = 1 
+```
+
+```{r}
+dat1 = dat %>%
+  select(COUNTRY_ALPHA, COUNTRY_BY_REGION, REGION, Q61F,Q89A, ELECTORAL_SYSTEM) %>%
+  filter(!COUNTRY_ALPHA %in% c("Guinea", "Lesotho", "Madagascar", "Senegal", "Sudan", "Zimbabwe") & Q61F %in% c(0,1,2,3) & Q89A %in% c(0,1)) %>%
+  group_by(COUNTRY_ALPHA, REGION) %>%
+  mutate(PROP_UNDECIDED = mean(Q89A == 0)) %>%
+  mutate(PROP_VOTEBUYING = mean(Q61F > 0)) %>%
+  mutate(AVERAGE_VOTEBUYING = mean(as.numeric(Q61F)))
+
+dat1 = dat1 %>%
+  select(COUNTRY_ALPHA, COUNTRY_BY_REGION, REGION, ELECTORAL_SYSTEM, PROP_UNDECIDED, PROP_VOTEBUYING, AVERAGE_VOTEBUYING) %>%
+  distinct()
+```
+
+```{r}
+library(ggplot2)
+
+ggplot(data = dat1, aes(x = PROP_UNDECIDED, y = PROP_VOTEBUYING, color = factor(ELECTORAL_SYSTEM))) + geom_point() + theme_minimal() + geom_smooth(method='lm', se = FALSE)
+
+ggplot(data = dat1, aes(x = PROP_UNDECIDED, y = AVERAGE_VOTEBUYING, color = factor(ELECTORAL_SYSTEM))) + geom_point() + theme_minimal() + geom_smooth(method='lm', se = FALSE)
+```
+
+
+```{r}
+ggplot(data = dat1, aes(x = PROP_UNDECIDED, y = PROP_VOTEBUYING)) + 
+  geom_point(aes(shape = factor(ELECTORAL_SYSTEM), color = COUNTRY_BY_REGION, size = AVERAGE_VOTEBUYING)) + 
+  scale_shape_manual(values = c(15,16), labels = c("PR", "SMD")) +
+  
+  theme_minimal()
+```
+
+
+Regression equation
+```{r}
+lm(PROP_VOTEBUYING ~ ELECTORAL_SYSTEM + PROP_UNDECIDED + ELECTORAL_SYSTEM*PROP_UNDECIDED, data = dat1)
+```
+
+
+
