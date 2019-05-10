@@ -1,0 +1,96 @@
+\documentclass{article}
+
+\usepackage{Sweave}
+\begin{document}
+\input{MPSA_figures-concordance}
+
+
+
+\includegraphics{MPSA_figures-001}
+
+\includegraphics{MPSA_figures-002}
+
+\includegraphics{MPSA_figures-003}
+
+\begin{table}[!htbp] \centering 
+  \caption{Electoral Institutions and Competitiveness} 
+  \label{} 
+\begin{tabular}{@{\extracolsep{5pt}}lccc} 
+\\[-1.8ex]\hline 
+\hline \\[-1.8ex] 
+ & \multicolumn{3}{c}{\textit{Dependent variable:}} \\ 
+\cline{2-4} 
+\\[-1.8ex] & \multicolumn{3}{c}{District Spending} \\ 
+ & ITAM & UIUC & Pooled \\ 
+\\[-1.8ex] & (1) & (2) & (3)\\ 
+\hline \\[-1.8ex] 
+ Competitive (Binary) & 8,427$^{***}$ & 8,116$^{***}$ & 8,227$^{***}$ \\ 
+  & (635) & (538) & (412) \\ 
+  SMD (Binary) & $-$921$^{*}$ & $-$1,048$^{**}$ & $-$1,000$^{***}$ \\ 
+  & (511) & (459) & (344) \\ 
+  SMD * Competitive & 2,891$^{***}$ & 3,282$^{***}$ & 3,138$^{***}$ \\ 
+  & (885) & (796) & (595) \\ 
+  Constant & 8,220$^{***}$ & 8,296$^{***}$ & 8,269$^{***}$ \\ 
+  & (366) & (310) & (238) \\ 
+ \hline \\[-1.8ex] 
+Observations & 1,278 & 2,070 & 3,348 \\ 
+R$^{2}$ & 0 & 0 & 0 \\ 
+Adjusted R$^{2}$ & 0 & 0 & 0 \\ 
+\hline 
+\hline \\[-1.8ex] 
+\textit{Note:}  & \multicolumn{3}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ 
+\end{tabular} 
+\end{table} 
+\begin{table}[t]
+
+\caption{\label{tab:}ITAM and UIUC (Pooled)}
+\centering
+\begin{tabular}{l|l|l}
+\hline
+  & Competitive & Stronghold\\
+\hline
+SMD & 18,634 & 7,269\\
+\hline
+PR & 16,496 & 8,269\\
+\hline
+\end{tabular}
+\end{table}
+\begin{table}[t]
+
+\caption{\label{tab:}ITAM Students (Mexico Sample)}
+\centering
+\begin{tabular}{l|l|l}
+\hline
+  & Competitive & Stronghold\\
+\hline
+SMD & 18,617 & 7,299\\
+\hline
+PR & 16,647 & 8,220\\
+\hline
+\end{tabular}
+\end{table}
+\begin{table}[t]
+
+\caption{\label{tab:}UIUC Students (US Sample)}
+\centering
+\begin{tabular}{l|l|l}
+\hline
+  & Competitive & Stronghold\\
+\hline
+SMD & 18,646 & 7,248\\
+\hline
+PR & 16,413 & 8,296\\
+\hline
+\end{tabular}
+\end{table}
+
+\includegraphics{MPSA_figures-008}
+
+
+
+
+
+
+
+
+\end{document}
