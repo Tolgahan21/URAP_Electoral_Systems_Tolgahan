@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{apacite}
+\usepackage{blindtext}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{bbm}
+\usepackage[margin=1in]{geometry} % set margins
+\usepackage{subcaption} % allows for subfigures
+\usepackage{graphicx} % allow inclusion of figures/photos/pdfs
+\usepackage{setspace} % allows changes between 
+% \doublespacing \singlespacing \onehalfspacing
+\onehalfspacing
+\graphicspath{{./figure/}}
+\usepackage[justification=centering]{caption}
+\usepackage{cancel}
+\usepackage{mathrsfs}
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+	\title{Where to Spend the Money? A Survey Experiment on Electoral Institutions and Party Expenditure at the District Level}
+	\author{Tolgahan Dilgin}
+	\date{03/28/2018}
+	\maketitle
+	
+\begin{abstract}
+This paper is part of dissertation research that examines the institutional causes of political parties' decisions to follow different vote buying strategies across districts. Regardless of electoral rules, parties tend to concentrate their vote buying spending in the most competitive districts as opposed to party strongholds in order to maximize their electoral gains. This research argues that proportional representation (PR) systems causes political parties to distribute their vote buying activities more evenly between party strongholds and competitive districts in comparison to single member district (SMD) systems. In the face of difficulty in testing this theory empirically, the paper takes advantage of the unique political structure of Mexico, which uses both SMD and PR systems in its elections. The survey experiment with Mexican students -who are exposed to both of the systems- provides evidence consistent with paper's main theoretical claim.
+\end{abstract}
+
+
+
+\end{document}
